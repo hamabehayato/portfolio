@@ -1,0 +1,8 @@
+$pc:  "only screen and (min-width: 1128px)";
+$tablet:  "only screen and (min-width:744px)";
+$smartphone:  "only screen and (max-width:743px)";
+
+@import "header";
+@import "business-prg";
+@import "footer";
+
