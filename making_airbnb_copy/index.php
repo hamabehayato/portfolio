@@ -18,7 +18,7 @@
             <section class="body1-bg">
                 <div class="body1-bg-img"> <!-- $smartphone-only -->
                 <div class="body1-bg-cover">
-                    <video src="img/top-view-video.mp4" id="body1-bg-video" autoplay loop><!--$tablet-above-only-->
+                    <video src="img/top-view-video.mp4" id="body1-bg-video" autoplay loop muted><!--$tablet-above-only-->
                         <source src="img/top-view-video.mp4">
                     </video>
                     <div class="body1-text-zone">
@@ -41,9 +41,13 @@
                         <p>出張管理をご担当ですか？</p>
                         <a href="">もっと詳しく <span class="arrow"></span></a>
                     </div>
+
                 </section>
                 <div class="separate-border"></div>
-                
+
+                <div class="video-button-zone">
+                    <button id="video-button" class="play">停止<i class="fas fa-stop video-icon"></i></button>
+                </div>
             </section>
         </div>
 
