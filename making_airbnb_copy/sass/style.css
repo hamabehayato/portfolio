@@ -2,6 +2,7 @@
 @media only screen and (min-width: 1128px) {
   .width-pc-placement {
     display: table; } }
+
 @media only screen and (min-width: 1128px) {
   .width-pc-placement .width-pc-table-cell {
     display: table-cell;
@@ -164,12 +165,16 @@ body {
     border: 1.8px solid;
     transform: rotate(45deg);
     margin: 8px; }
+
 .business-prg a:hover {
   text-decoration: underline; }
+
 .business-prg input {
   outline: none; }
+
 .business-prg button:focus {
   outline: 0; }
+
 .business-prg .body1 {
   color: #ffffff;
   margin-bottom: 271px; }
@@ -178,6 +183,7 @@ body {
       margin-bottom: 101px; } }
   .business-prg .body1 a {
     color: #ffffff; }
+
 .business-prg .body1-link-video-button {
   color: #ffffff;
   display: inline;
@@ -191,6 +197,7 @@ body {
     display: inline-flex;
     height: 14px;
     margin: 4px 0 0 12px; }
+
 .business-prg .body1-bg {
   height: 540px;
   position: relative; }
@@ -200,6 +207,7 @@ body {
   @media only screen and (min-width: 1128px) {
     .business-prg .body1-bg {
       height: 860px; } }
+
 .business-prg .body1-bg-img {
   width: 100%;
   height: 100%;
@@ -208,9 +216,11 @@ body {
     .business-prg .body1-bg-img {
       background: url(../img/business-prg-header.png);
       background-size: cover; } }
+
 @media only screen and (max-width: 743px) {
   .business-prg #body1-bg-video {
     display: none; } }
+
 @media only screen and (min-width: 744px) {
   .business-prg #body1-bg-video {
     background: url(../img/business-prg-header.png);
@@ -220,11 +230,13 @@ body {
     width: 100%;
     height: 100%;
     z-index: -2; } }
+
 .business-prg .body1-bg-cover {
   background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 100%;
   z-index: -1; }
+
 .business-prg .body1-text-zone {
   position: absolute;
   bottom: 40px;
@@ -246,13 +258,16 @@ body {
     .business-prg .body1-text-zone {
       top: 280px;
       left: 180px; } }
+
 @media only screen and (min-width: 744px) {
   .business-prg .body1-tablet-position {
     position: absolute;
     top: 340px; } }
+
 @media only screen and (min-width: 1128px) {
   .business-prg .body1-tablet-position {
     top: 460px; } }
+
 .business-prg .top-form {
   font-weight: 600;
   margin-top: 30px;
@@ -264,6 +279,7 @@ body {
   @media only screen and (min-width: 1128px) {
     .business-prg .top-form {
       margin-left: 180px; } }
+
 .business-prg .top-email-label {
   cursor: pointer;
   display: block;
@@ -271,6 +287,7 @@ body {
   @media only screen and (max-width: 743px) {
     .business-prg .top-email-label {
       color: #292727; } }
+
 .business-prg .top-input-zone {
   border: 1px solid #EBEBEB;
   border-radius: 5px;
@@ -282,6 +299,7 @@ body {
     .business-prg .top-input-zone {
       background-color: #ffffff;
       border: none; } }
+
 .business-prg #top-mail-address {
   border: none;
   font-size: 18px;
@@ -289,6 +307,7 @@ body {
   padding-right: 10px; }
   .business-prg #top-mail-address:focus {
     outline: none; }
+
 .business-prg .top-input-button {
   border: none;
   border-radius: 5px;
@@ -299,15 +318,18 @@ body {
     outline: 1px solid #000000;
     outline-offset: 3px;
     transition: 0.1s !important; }
+
 .business-prg #top-mail-address:placeholder-shown + .top-input-button {
   /*入力されてないとき*/
   background: rgba(0, 132, 137, 0.3);
   transition: 0.3s; }
+
 .business-prg #top-mail-address:not(:placeholder-shown) + .top-input-button {
   /*入力されたとき*/
   background: #008489;
   cursor: pointer;
   transition: 0.3s; }
+
 .business-prg .business-trip-management {
   margin-top: 30px;
   margin-left: 20px;
@@ -333,6 +355,7 @@ body {
     @media only screen and (min-width: 744px) {
       .business-prg .business-trip-management .arrow {
         border-color: #ffffff #ffffff transparent transparent; } }
+
 .business-prg .video-button-zone {
   position: absolute;
   right: 30px;
@@ -344,6 +367,7 @@ body {
   @media only screen and (max-width: 743px) {
     .business-prg .video-button-zone {
       display: none; } }
+
 .business-prg #video-button {
   background: transparent;
   border: 2px solid #ffffff;
@@ -355,12 +379,15 @@ body {
   padding: 10px 22px; }
   .business-prg #video-button:focus {
     box-shadow: 0 0 0 5px #000000; }
+
 .business-prg .video-icon {
   margin-left: 10px; }
+
 @media only screen and (max-width: 743px) {
   .business-prg .separate-border {
     border-bottom: 1px solid #EBEBEB;
     margin: 0 20px; } }
+
 .business-prg .body2 {
   text-align: center;
   overflow: auto !important; }
@@ -374,9 +401,11 @@ body {
     @media only screen and (min-width: 744px) {
       .business-prg .body2 h2 {
         font-size: 32px; } }
+
 @media only screen and (min-width: 744px) {
   .business-prg .body2-art-zone {
     margin: 0 70px; } }
+
 .business-prg .body2-art {
   color: #484848;
   text-align: center;
@@ -403,6 +432,7 @@ body {
     @media only screen and (min-width: 744px) {
       .business-prg .body2-art p {
         margin: 0 15px; } }
+
 .business-prg .body3 {
   clear: both; }
   @media only screen and (min-width: 744px) {
@@ -412,22 +442,27 @@ body {
     color: #008489; }
   .business-prg .body3 .arrow {
     border-color: #008489 #008489 transparent transparent; }
+
 @media only screen and (min-width: 744px) {
   .business-prg .body3-tablet-margin {
     overflow: auto !important;
     margin: 15px; } }
+
 @media only screen and (min-width: 744px) {
   .business-prg .body3-tablet-float {
     width: 58.3333%;
     height: 500px; } }
+
 @media only screen and (min-width: 744px) {
   .business-prg .float-white {
     float: right;
     padding-left: 7.5px; } }
+
 @media only screen and (min-width: 744px) {
   .business-prg .float-green {
     float: left;
     padding-right: 7.5px; } }
+
 .business-prg .body3-back-white-text {
   color: #484848;
   padding: 40px 70px 50px 70px; }
@@ -450,23 +485,28 @@ body {
       margin-right: 15px;
       height: 500px;
       padding: 0; } }
+
 @media only screen and (min-width: 744px) {
   .business-prg .body3-text-tablet {
     margin: 0 12%; } }
+
 .business-prg .body3-art-zone {
   height: 380px; }
   @media only screen and (min-width: 744px) {
     .business-prg .body3-art-zone {
       height: 500px;
       width: 41.6667%; } }
+
 @media only screen and (min-width: 744px) {
   .business-prg .art-left {
     float: left;
     padding-right: 7.5px; } }
+
 @media only screen and (min-width: 744px) {
   .business-prg .art-right {
     float: right;
     padding-left: 7.5px; } }
+
 .business-prg .body3-art {
   height: 100%;
   padding: 15px;
@@ -478,12 +518,15 @@ body {
     object-fit: cover;
     width: 100%;
     height: 100%; }
+
 @media only screen and (min-width: 744px) {
   .business-prg .back-white-after {
     height: 100%; } }
+
 @media only screen and (min-width: 744px) {
   .business-prg .back-green-after {
     height: 100%; } }
+
 .business-prg .body3-back-green-text {
   background-color: #006c70;
   color: #ffffff;
@@ -507,6 +550,7 @@ body {
       margin-left: 15px;
       height: 500px;
       padding: 0; } }
+
 .business-prg .body4-back-green {
   background: #006c70;
   color: #ffffff;
@@ -518,6 +562,7 @@ body {
     color: #ffffff; }
     .business-prg .body4-back-green a .arrow {
       border-color: #ffffff #ffffff transparent transparent; }
+
 @media only screen and (min-width: 744px) {
   .business-prg .back-green-tablet {
     max-width: 636px;
@@ -552,11 +597,13 @@ body {
     @media only screen and (min-width: 744px) {
       .business-prg .body4-back-green-text p {
         font-size: 18px; } }
+
 .business-prg .body4-separate-border {
   border: 0.6px solid #ffffff; }
   @media only screen and (min-width: 1128px) {
     .business-prg .body4-separate-border {
       border: none; } }
+
 .business-prg .body4-art-zone {
   margin-bottom: 15px; }
   @media only screen and (min-width: 744px) {
@@ -577,6 +624,7 @@ body {
     object-fit: cover;
     width: 100%;
     height: 100%; }
+
 .business-prg .body4-back-gray {
   background: #ebebeb;
   color: #484848; }
@@ -613,9 +661,11 @@ body {
       margin-bottom: 0; }
     .business-prg .body4-back-gray .body4-back-gray-text .position {
       font-size: 16px; }
+
 @media only screen and (min-width: 744px) {
   .business-prg .body4-bottom-zone-tablet {
     clear: both; } }
+
 .business-prg .body4-bottom-zone {
   background: #ebebeb;
   color: #484848;
@@ -663,15 +713,18 @@ body {
         color: #ffffff;
         font-size: 16px;
         padding: 10px 5px; }
+
 .business-prg #body4-mail-address:placeholder-shown + .body4-form-button {
   /*入力されてないとき*/
   background: rgba(0, 132, 137, 0.3);
   transition: 0.3s; }
+
 .business-prg #body4-mail-address:not(:placeholder-shown) + .body4-form-button {
   /*入力されたとき*/
   background: #008489;
   cursor: pointer;
   transition: 0.3s; }
+
 .business-prg .body4-form-under-text {
   text-align: center;
   padding: 24px 0; }
@@ -687,6 +740,7 @@ body {
     .business-prg .body4-form-under-text a .arrow {
       border-color: #008489 #008489 transparent transparent;
       margin-top: 6px; }
+
 .business-prg .body4-border-margin {
   border: 0.6px solid #aca8a8;
   width: 85%;
@@ -801,9 +855,11 @@ footer {
 @media only screen and (min-width: 744px) {
   .footer-bottom {
     text-align: center; } }
+
 @media only screen and (min-width: 1128px) {
   .footer-bottom {
     text-align: left; } }
+
 .footer-bottom .language-currency {
   margin-bottom: 15px; }
   .footer-bottom .language-currency a {
@@ -833,6 +889,7 @@ footer {
           width: 18px;
           height: 18px;
           margin-right: 24px; } }
+
 .footer-bottom .developer a {
   color: #222222;
   font-size: 14px;
@@ -841,29 +898,34 @@ footer {
     .footer-bottom .developer a {
       display: block;
       width: 100%; } }
+
 @media only screen and (min-width: 1128px) {
   .footer-bottom .developer span {
     display: block;
     width: 100%; } }
+
 @media only screen and (min-width: 1128px) {
   .footer-bottom .footer-bottom-pc-copyright-detailes {
     overflow: hidden; } }
+
 @media only screen and (min-width: 1128px) {
   .footer-bottom .copyright {
     display: inline-block; } }
+
 .footer-bottom .copyright p {
   color: #222222;
   font-size: 14px;
   line-height: 18px; }
+
 @media only screen and (min-width: 1128px) {
   .footer-bottom .details {
     display: inline; } }
+
 .footer-bottom .details a {
   color: #222222;
   display: inline-block;
   font-size: 14px; }
+
 .footer-bottom .details span {
   color: #222222;
   display: inline-block; }
-
-/*# sourceMappingURL=style.css.map */

@@ -40,16 +40,23 @@ button:focus {
     @media #{$tablet} {
         margin-bottom: 101px;
     }
+    a {
+        color: #ffffff;
+    }
 }
-
-.body1 a {
+.body1-link-video-button  {
     color: #ffffff;
+    display: inline;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
     .right-triangle {
-        height: 16px;
-        border-top: 8px solid transparent;
-        border-bottom: 8px solid transparent;
-        border-left: 8px solid #ffffff;
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+        border-left: 7px solid #ffffff;
         display: inline-flex;
+        height: 14px;
         margin: 4px 0 0 12px;
     }
 }
@@ -160,7 +167,7 @@ button:focus {
     width: 390px;
     padding: 10px 0 10px 8px;
     &:focus-within {
-        border: solid 1px rgb(0, 132, 137);
+        box-shadow: 0 0 0 2px rgb(0, 132, 137);
     }
     @media #{$tablet} {
         background-color: #ffffff;
@@ -277,7 +284,7 @@ button:focus {
 // body2
 .body2 {
     text-align: center;
-    overflow: auto;
+    overflow: auto !important;
     @media #{$tablet} {
         margin-bottom: 100px;
     }
@@ -347,7 +354,7 @@ button:focus {
 
 .body3-tablet-margin {
     @media #{$tablet} {
-        overflow: auto;
+        overflow: auto !important;
         margin: 15px;
     }
 }
@@ -401,7 +408,7 @@ button:focus {
 
 .body3-text-tablet {
     @media #{$tablet} {
-        margin: 0 18%;
+        margin: 0 12%;
     }
 }
 
@@ -586,19 +593,19 @@ button:focus {
             display: table-cell;
             vertical-align: middle;
             height: 500px;
-        }       
+        }
         .back-gray-text-tablet {
             @media #{$tablet} {
                 width: 60%;
                 margin: auto;
-            }       
+            }
         }
         p {
             font-size: 14px;
             margin-bottom: 16px;
             @media #{$tablet} {
                 font-size: 18px;
-            }  
+            }
             @media #{$pc} {
                 font-size: 20px;
                 line-height: 2;
@@ -655,16 +662,16 @@ button:focus {
                 width: 450px;
             }
             &:focus-within {
-                border: 1px solid #008489;
+                box-shadow: 0 0 0 2px rgb(0, 132, 137);
             }
             input {
                 border: none;
                 border-radius: 5px;
                 font-size: 18px;
-                padding: 15px;  
+                padding: 15px;
                 @media #{$tablet} {
                     width: 265px;
-                }         
+                }
             }
             .body4-form-button {
                 border: none;
@@ -721,7 +728,7 @@ button:focus {
         @media #{$tablet} {
             border: 0.6px solid #aca8a8;
             width: 450px;
-        }    
+        }
     }
 }
 

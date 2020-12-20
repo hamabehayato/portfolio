@@ -1,21 +1,18 @@
 /*
-Error: Undefined variable: "$tablet".
-        on line 40 of /Applications/MAMP/htdocs/portfolio/making_airbnb_copy/sass/business-prg.scss
+Error: Undefined variable: "$pc".
+        on line 3 of /Applications/MAMP/htdocs/portfolio/making_airbnb_copy/sass/header.scss
 
-35: 
-36: // body1
-37: .body1 {
-38:     color: #ffffff;
-39:     margin-bottom: 271px;
-40:     @media #{$tablet} {
-41:         margin-bottom: 101px;
-42:     }
-43:     a {
-44:         color: #ffffff;
-45:     }
+1: 
+2: .width-pc-placement {
+3:     @media #{$pc} {
+4:         display: table;
+5:     }
+6:     .width-pc-table-cell {
+7:         @media #{$pc} {
+8:             display: table-cell;
 
 Backtrace:
-/Applications/MAMP/htdocs/portfolio/making_airbnb_copy/sass/business-prg.scss:40
+/Applications/MAMP/htdocs/portfolio/making_airbnb_copy/sass/header.scss:3
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/interpolation.rb:170:in `_perform'
@@ -25,17 +22,6 @@ Backtrace:
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:553:in `run_interp_no_strip'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:560:in `run_interp'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:525:in `visit_media'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -79,4 +65,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$tablet\".\A         on line 40 of /Applications/MAMP/htdocs/portfolio/making_airbnb_copy/sass/business-prg.scss\A \A 35: \A 36: // body1\A 37: .body1 {\A 38:     color: #ffffff;\A 39:     margin-bottom: 271px;\A 40:     @media #{$tablet} {\A 41:         margin-bottom: 101px;\A 42:     }\A 43:     a {\A 44:         color: #ffffff;\A 45:     }"; }
+  content: "Error: Undefined variable: \"$pc\".\A         on line 3 of /Applications/MAMP/htdocs/portfolio/making_airbnb_copy/sass/header.scss\A \A 1: \A 2: .width-pc-placement {\A 3:     @media #{$pc} {\A 4:         display: table;\A 5:     }\A 6:     .width-pc-table-cell {\A 7:         @media #{$pc} {\A 8:             display: table-cell;"; }

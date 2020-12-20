@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/favicon.png">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <title>Document</title>
+    <title>making_airbnb_copy</title>
 </head>
 <body>
 
@@ -14,6 +14,7 @@
 
     <main class="business-prg">
         <!-- body1 -->
+        <?php require('index_link_movie.html') ?>
         <div class="body1">
             <section class="body1-bg">
                 <div class="body1-bg-img"> <!-- $smartphone-only -->
@@ -23,7 +24,7 @@
                     </video>
                     <div class="body1-text-zone">
                         <h1>世界の果てまで、アットホーム</h1>
-                        <a href="#">Airbnbビジネスプログラムの動画を見る<div class="right-triangle"></div></a>
+                        <div class="body1-link-video-button">Airbnbビジネスプログラムの動画を見る<span class="right-triangle"></sapn></div>
                     </div>
                 </div>
                 </div>
@@ -186,7 +187,7 @@
         <?php include("footer.html") ?>
             
     </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="js/style.js"></script>   
 </body>
 </html>
