@@ -3,16 +3,16 @@ Error: Undefined variable: "$tablet".
         on line 40 of /Applications/MAMP/htdocs/portfolio/making_airbnb_copy/sass/business-prg.scss
 
 35: 
-36: // body1
-37: .body1 {
-38:     color: #ffffff;
-39:     margin-bottom: 271px;
-40:     @media #{$tablet} {
-41:         margin-bottom: 101px;
-42:     }
-43:     a {
-44:         color: #ffffff;
-45:     }
+36:     // body1
+37:     .body1 {
+38:         color: #ffffff;
+39:         margin-bottom: 271px;
+40:         @media #{$tablet} {
+41:             margin-bottom: 101px;
+42:         }
+43:         a {
+44:             color: #ffffff;
+45:         }
 
 Backtrace:
 /Applications/MAMP/htdocs/portfolio/making_airbnb_copy/sass/business-prg.scss:40
@@ -79,4 +79,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$tablet\".\A         on line 40 of /Applications/MAMP/htdocs/portfolio/making_airbnb_copy/sass/business-prg.scss\A \A 35: \A 36: // body1\A 37: .body1 {\A 38:     color: #ffffff;\A 39:     margin-bottom: 271px;\A 40:     @media #{$tablet} {\A 41:         margin-bottom: 101px;\A 42:     }\A 43:     a {\A 44:         color: #ffffff;\A 45:     }"; }
+  content: "Error: Undefined variable: \"$tablet\".\A         on line 40 of /Applications/MAMP/htdocs/portfolio/making_airbnb_copy/sass/business-prg.scss\A \A 35: \A 36:     // body1\A 37:     .body1 {\A 38:         color: #ffffff;\A 39:         margin-bottom: 271px;\A 40:         @media #{$tablet} {\A 41:             margin-bottom: 101px;\A 42:         }\A 43:         a {\A 44:             color: #ffffff;\A 45:         }"; }

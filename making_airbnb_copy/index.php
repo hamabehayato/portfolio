@@ -10,9 +10,9 @@
 </head>
 <body>
 
-    <?php include("header.html"); ?>
+    <?php include("top-toggle.html"); ?>
 
-    <main class="business-prg">
+    <div class="business-prg">
         <!-- body1 -->
         <?php require('index_link_movie.html') ?>
         <div class="body1">
@@ -51,8 +51,10 @@
                 </div>
             </section>
         </div>
+    </header>
 
         <!-- body2 -->
+    <main class="business-prg-main">
         <div class="body2">
             <section class="body2-art-zone">
                 <h2>最高の仕事に必要なものすべてを完備</h2>
@@ -183,10 +185,11 @@
                     </div>
             </section>
         </div>
+    </main>
 
         <?php include("footer.html") ?>
             
-    </main>
+    </div>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="js/style.js"></script>   
 </body>

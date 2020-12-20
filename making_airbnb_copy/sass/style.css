@@ -388,97 +388,97 @@ body {
     border-bottom: 1px solid #EBEBEB;
     margin: 0 20px; } }
 
-.business-prg .body2 {
+.business-prg-main .body2 {
   text-align: center;
   overflow: auto !important; }
   @media only screen and (min-width: 744px) {
-    .business-prg .body2 {
+    .business-prg-main .body2 {
       margin-bottom: 100px; } }
-  .business-prg .body2 h2 {
+  .business-prg-main .body2 h2 {
     color: #484848;
     font-size: 24px;
     font-weight: 200; }
     @media only screen and (min-width: 744px) {
-      .business-prg .body2 h2 {
+      .business-prg-main .body2 h2 {
         font-size: 32px; } }
 
 @media only screen and (min-width: 744px) {
-  .business-prg .body2-art-zone {
+  .business-prg-main .body2-art-zone {
     margin: 0 70px; } }
 
-.business-prg .body2-art {
+.business-prg-main .body2-art {
   color: #484848;
   text-align: center;
   margin-bottom: 30px; }
   @media only screen and (min-width: 744px) {
-    .business-prg .body2-art {
+    .business-prg-main .body2-art {
       float: left;
       width: 33.33%;
       margin: 0; } }
-  .business-prg .body2-art article {
+  .business-prg-main .body2-art article {
     height: 380px;
     margin: 20px; }
     @media only screen and (min-width: 744px) {
-      .business-prg .body2-art article {
+      .business-prg-main .body2-art article {
         margin: 20px 10px;
         height: 333.33px; } }
-  .business-prg .body2-art img {
+  .business-prg-main .body2-art img {
     height: 100%;
     width: 100%;
     object-fit: cover; }
-  .business-prg .body2-art p {
+  .business-prg-main .body2-art p {
     font-size: 18px;
     font-weight: 200; }
     @media only screen and (min-width: 744px) {
-      .business-prg .body2-art p {
+      .business-prg-main .body2-art p {
         margin: 0 15px; } }
 
-.business-prg .body3 {
+.business-prg-main .body3 {
   clear: both; }
   @media only screen and (min-width: 744px) {
-    .business-prg .body3 section {
+    .business-prg-main .body3 section {
       margin-bottom: 50px; } }
-  .business-prg .body3 a {
+  .business-prg-main .body3 a {
     color: #008489; }
-  .business-prg .body3 .arrow {
+  .business-prg-main .body3 .arrow {
     border-color: #008489 #008489 transparent transparent; }
 
 @media only screen and (min-width: 744px) {
-  .business-prg .body3-tablet-margin {
+  .business-prg-main .body3-tablet-margin {
     overflow: auto !important;
     margin: 15px; } }
 
 @media only screen and (min-width: 744px) {
-  .business-prg .body3-tablet-float {
+  .business-prg-main .body3-tablet-float {
     width: 58.3333%;
     height: 500px; } }
 
 @media only screen and (min-width: 744px) {
-  .business-prg .float-white {
+  .business-prg-main .float-white {
     float: right;
     padding-left: 7.5px; } }
 
 @media only screen and (min-width: 744px) {
-  .business-prg .float-green {
+  .business-prg-main .float-green {
     float: left;
     padding-right: 7.5px; } }
 
-.business-prg .body3-back-white-text {
+.business-prg-main .body3-back-white-text {
   color: #484848;
   padding: 40px 70px 50px 70px; }
-  .business-prg .body3-back-white-text h3 {
+  .business-prg-main .body3-back-white-text h3 {
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 20px; }
     @media only screen and (min-width: 744px) {
-      .business-prg .body3-back-white-text h3 {
+      .business-prg-main .body3-back-white-text h3 {
         font-size: 32px; } }
-  .business-prg .body3-back-white-text p {
+  .business-prg-main .body3-back-white-text p {
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 20px; }
   @media only screen and (min-width: 744px) {
-    .business-prg .body3-back-white-text {
+    .business-prg-main .body3-back-white-text {
       background-color: #ebebeb;
       display: table-cell;
       vertical-align: middle;
@@ -487,270 +487,270 @@ body {
       padding: 0; } }
 
 @media only screen and (min-width: 744px) {
-  .business-prg .body3-text-tablet {
+  .business-prg-main .body3-text-tablet {
     margin: 0 12%; } }
 
-.business-prg .body3-art-zone {
+.business-prg-main .body3-art-zone {
   height: 380px; }
   @media only screen and (min-width: 744px) {
-    .business-prg .body3-art-zone {
+    .business-prg-main .body3-art-zone {
       height: 500px;
       width: 41.6667%; } }
 
 @media only screen and (min-width: 744px) {
-  .business-prg .art-left {
+  .business-prg-main .art-left {
     float: left;
     padding-right: 7.5px; } }
 
 @media only screen and (min-width: 744px) {
-  .business-prg .art-right {
+  .business-prg-main .art-right {
     float: right;
     padding-left: 7.5px; } }
 
-.business-prg .body3-art {
+.business-prg-main .body3-art {
   height: 100%;
   padding: 15px;
   padding-top: 0; }
   @media only screen and (min-width: 744px) {
-    .business-prg .body3-art {
+    .business-prg-main .body3-art {
       padding: 0; } }
-  .business-prg .body3-art img {
+  .business-prg-main .body3-art img {
     object-fit: cover;
     width: 100%;
     height: 100%; }
 
 @media only screen and (min-width: 744px) {
-  .business-prg .back-white-after {
+  .business-prg-main .back-white-after {
     height: 100%; } }
 
 @media only screen and (min-width: 744px) {
-  .business-prg .back-green-after {
+  .business-prg-main .back-green-after {
     height: 100%; } }
 
-.business-prg .body3-back-green-text {
+.business-prg-main .body3-back-green-text {
   background-color: #006c70;
   color: #ffffff;
   padding: 40px 70px 50px 70px;
   margin-bottom: 15px; }
-  .business-prg .body3-back-green-text h3 {
+  .business-prg-main .body3-back-green-text h3 {
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 20px; }
-  .business-prg .body3-back-green-text p {
+  .business-prg-main .body3-back-green-text p {
     font-weight: 300;
     margin-bottom: 20px; }
-  .business-prg .body3-back-green-text a {
+  .business-prg-main .body3-back-green-text a {
     color: #ffffff; }
-    .business-prg .body3-back-green-text a .arrow {
+    .business-prg-main .body3-back-green-text a .arrow {
       border-color: #ffffff #ffffff transparent transparent; }
   @media only screen and (min-width: 744px) {
-    .business-prg .body3-back-green-text {
+    .business-prg-main .body3-back-green-text {
       display: table-cell;
       vertical-align: middle;
       margin-left: 15px;
       height: 500px;
       padding: 0; } }
 
-.business-prg .body4-back-green {
+.business-prg-main .body4-back-green {
   background: #006c70;
   color: #ffffff;
   padding: 0 24px; }
   @media only screen and (min-width: 744px) {
-    .business-prg .body4-back-green {
+    .business-prg-main .body4-back-green {
       margin-bottom: 96px; } }
-  .business-prg .body4-back-green a {
+  .business-prg-main .body4-back-green a {
     color: #ffffff; }
-    .business-prg .body4-back-green a .arrow {
+    .business-prg-main .body4-back-green a .arrow {
       border-color: #ffffff #ffffff transparent transparent; }
 
 @media only screen and (min-width: 744px) {
-  .business-prg .back-green-tablet {
+  .business-prg-main .back-green-tablet {
     max-width: 636px;
     margin: auto; } }
   @media only screen and (min-width: 744px) and (min-width: 1128px) {
-    .business-prg .back-green-tablet {
+    .business-prg-main .back-green-tablet {
       max-width: 1080px;
       display: flex; } }
 
-.business-prg .body4-back-green-text {
+.business-prg-main .body4-back-green-text {
   padding: 64px 0;
   max-width: 70%;
   margin: 0 auto; }
   @media only screen and (min-width: 1128px) {
-    .business-prg .body4-back-green-text {
+    .business-prg-main .body4-back-green-text {
       width: 50%; } }
   @media only screen and (min-width: 1128px) {
-    .business-prg .body4-back-green-text .size-pc {
+    .business-prg-main .body4-back-green-text .size-pc {
       max-width: 70%;
       margin: 0 auto; } }
-  .business-prg .body4-back-green-text h3 {
+  .business-prg-main .body4-back-green-text h3 {
     font-size: 24px;
     font-weight: 200;
     margin-bottom: 16px; }
     @media only screen and (min-width: 744px) {
-      .business-prg .body4-back-green-text h3 {
+      .business-prg-main .body4-back-green-text h3 {
         font-size: 32px; } }
-  .business-prg .body4-back-green-text p {
+  .business-prg-main .body4-back-green-text p {
     font-size: 14px;
     font-weight: 200;
     margin-bottom: 16px; }
     @media only screen and (min-width: 744px) {
-      .business-prg .body4-back-green-text p {
+      .business-prg-main .body4-back-green-text p {
         font-size: 18px; } }
 
-.business-prg .body4-separate-border {
+.business-prg-main .body4-separate-border {
   border: 0.6px solid #ffffff; }
   @media only screen and (min-width: 1128px) {
-    .business-prg .body4-separate-border {
+    .business-prg-main .body4-separate-border {
       border: none; } }
 
-.business-prg .body4-art-zone {
+.business-prg-main .body4-art-zone {
   margin-bottom: 15px; }
   @media only screen and (min-width: 744px) {
-    .business-prg .body4-art-zone {
+    .business-prg-main .body4-art-zone {
       width: 80%;
       margin: auto; } }
-  .business-prg .body4-art-zone article {
+  .business-prg-main .body4-art-zone article {
     height: 380px;
     padding: 15px; }
     @media only screen and (min-width: 744px) {
-      .business-prg .body4-art-zone article {
+      .business-prg-main .body4-art-zone article {
         float: left;
         padding: 0;
         padding-right: 15px;
         height: 500px;
         width: 50%; } }
-  .business-prg .body4-art-zone img {
+  .business-prg-main .body4-art-zone img {
     object-fit: cover;
     width: 100%;
     height: 100%; }
 
-.business-prg .body4-back-gray {
+.business-prg-main .body4-back-gray {
   background: #ebebeb;
   color: #484848; }
   @media only screen and (min-width: 744px) {
-    .business-prg .body4-back-gray {
+    .business-prg-main .body4-back-gray {
       float: right;
       width: 50%; } }
-  .business-prg .body4-back-gray .body4-back-gray-text {
+  .business-prg-main .body4-back-gray .body4-back-gray-text {
     max-width: 60%;
     padding: 64px 0;
     margin: auto; }
     @media only screen and (min-width: 744px) {
-      .business-prg .body4-back-gray .body4-back-gray-text {
+      .business-prg-main .body4-back-gray .body4-back-gray-text {
         display: table-cell;
         vertical-align: middle;
         height: 500px; } }
     @media only screen and (min-width: 744px) {
-      .business-prg .body4-back-gray .body4-back-gray-text .back-gray-text-tablet {
+      .business-prg-main .body4-back-gray .body4-back-gray-text .back-gray-text-tablet {
         width: 60%;
         margin: auto; } }
-    .business-prg .body4-back-gray .body4-back-gray-text p {
+    .business-prg-main .body4-back-gray .body4-back-gray-text p {
       font-size: 14px;
       margin-bottom: 16px; }
       @media only screen and (min-width: 744px) {
-        .business-prg .body4-back-gray .body4-back-gray-text p {
+        .business-prg-main .body4-back-gray .body4-back-gray-text p {
           font-size: 18px; } }
       @media only screen and (min-width: 1128px) {
-        .business-prg .body4-back-gray .body4-back-gray-text p {
+        .business-prg-main .body4-back-gray .body4-back-gray-text p {
           font-size: 20px;
           line-height: 2; } }
-    .business-prg .body4-back-gray .body4-back-gray-text .name {
+    .business-prg-main .body4-back-gray .body4-back-gray-text .name {
       font-size: 16px;
       font-weight: 550;
       margin-bottom: 0; }
-    .business-prg .body4-back-gray .body4-back-gray-text .position {
+    .business-prg-main .body4-back-gray .body4-back-gray-text .position {
       font-size: 16px; }
 
 @media only screen and (min-width: 744px) {
-  .business-prg .body4-bottom-zone-tablet {
+  .business-prg-main .body4-bottom-zone-tablet {
     clear: both; } }
 
-.business-prg .body4-bottom-zone {
+.business-prg-main .body4-bottom-zone {
   background: #ebebeb;
   color: #484848;
   padding: 32px 24px; }
   @media only screen and (min-width: 744px) {
-    .business-prg .body4-bottom-zone {
+    .business-prg-main .body4-bottom-zone {
       margin-top: 96px; } }
-  .business-prg .body4-bottom-zone h3 {
+  .business-prg-main .body4-bottom-zone h3 {
     font-size: 24px;
     font-weight: 200;
     text-align: center;
     margin-bottom: 30px; }
     @media only screen and (min-width: 744px) {
-      .business-prg .body4-bottom-zone h3 {
+      .business-prg-main .body4-bottom-zone h3 {
         font-size: 32px; } }
-  .business-prg .body4-bottom-zone label {
+  .business-prg-main .body4-bottom-zone label {
     cursor: pointer;
     display: block;
     font-weight: 550;
     padding-bottom: 10px; }
-  .business-prg .body4-bottom-zone .body4-form-zone {
+  .business-prg-main .body4-bottom-zone .body4-form-zone {
     max-width: 450px;
     margin: auto;
     margin-bottom: 30px; }
-    .business-prg .body4-bottom-zone .body4-form-zone .body4-input-zone {
+    .business-prg-main .body4-bottom-zone .body4-form-zone .body4-input-zone {
       background: #ffffff;
       border-radius: 5px;
       width: 418px; }
       @media only screen and (min-width: 744px) {
-        .business-prg .body4-bottom-zone .body4-form-zone .body4-input-zone {
+        .business-prg-main .body4-bottom-zone .body4-form-zone .body4-input-zone {
           width: 450px; } }
-      .business-prg .body4-bottom-zone .body4-form-zone .body4-input-zone:focus-within {
+      .business-prg-main .body4-bottom-zone .body4-form-zone .body4-input-zone:focus-within {
         box-shadow: 0 0 0 2px #008489; }
-      .business-prg .body4-bottom-zone .body4-form-zone .body4-input-zone input {
+      .business-prg-main .body4-bottom-zone .body4-form-zone .body4-input-zone input {
         border: none;
         border-radius: 5px;
         font-size: 18px;
         padding: 15px; }
         @media only screen and (min-width: 744px) {
-          .business-prg .body4-bottom-zone .body4-form-zone .body4-input-zone input {
+          .business-prg-main .body4-bottom-zone .body4-form-zone .body4-input-zone input {
             width: 265px; } }
-      .business-prg .body4-bottom-zone .body4-form-zone .body4-input-zone .body4-form-button {
+      .business-prg-main .body4-bottom-zone .body4-form-zone .body4-input-zone .body4-form-button {
         border: none;
         border-radius: 5px;
         color: #ffffff;
         font-size: 16px;
         padding: 10px 5px; }
 
-.business-prg #body4-mail-address:placeholder-shown + .body4-form-button {
+.business-prg-main #body4-mail-address:placeholder-shown + .body4-form-button {
   /*入力されてないとき*/
   background: rgba(0, 132, 137, 0.3);
   transition: 0.3s; }
 
-.business-prg #body4-mail-address:not(:placeholder-shown) + .body4-form-button {
+.business-prg-main #body4-mail-address:not(:placeholder-shown) + .body4-form-button {
   /*入力されたとき*/
   background: #008489;
   cursor: pointer;
   transition: 0.3s; }
 
-.business-prg .body4-form-under-text {
+.business-prg-main .body4-form-under-text {
   text-align: center;
   padding: 24px 0; }
-  .business-prg .body4-form-under-text p {
+  .business-prg-main .body4-form-under-text p {
     color: #484848;
     font-weight: 550;
     margin-bottom: 10px; }
-  .business-prg .body4-form-under-text .merit {
+  .business-prg-main .body4-form-under-text .merit {
     font-weight: 200; }
-  .business-prg .body4-form-under-text a {
+  .business-prg-main .body4-form-under-text a {
     color: #008489;
     font-size: 14px; }
-    .business-prg .body4-form-under-text a .arrow {
+    .business-prg-main .body4-form-under-text a .arrow {
       border-color: #008489 #008489 transparent transparent;
       margin-top: 6px; }
 
-.business-prg .body4-border-margin {
+.business-prg-main .body4-border-margin {
   border: 0.6px solid #aca8a8;
   width: 85%;
   margin: auto; }
   @media only screen and (min-width: 744px) {
-    .business-prg .body4-border-margin {
+    .business-prg-main .body4-border-margin {
       border: none;
       max-width: 450px; } }
   @media only screen and (min-width: 744px) {
-    .business-prg .body4-border-margin .body4-bottom-zone-berder {
+    .business-prg-main .body4-border-margin .body4-bottom-zone-berder {
       border: 0.6px solid #aca8a8;
       width: 450px; } }
 
