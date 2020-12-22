@@ -35,6 +35,7 @@
             </ul>
         </div>
         <nav class="accordion-contents-zone">
+        <?php include('top-toggle-button-click.html') ?>
             
             <div class="accordion-content">
                 <ul class="header-ul">
@@ -61,7 +62,7 @@
                     </li>
 
                     <li class="header-li">
-                        <button class="header-button">
+                        <button class="header-button language">
                             <div class="header-a-zone">言語<br>日本語(JP)</div>
                             <article class="glove"><img src="img/globe.svg" alt=""></article>
                         </button>

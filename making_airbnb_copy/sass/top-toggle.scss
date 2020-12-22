@@ -31,30 +31,14 @@
     .accordion-contents-zone {
         display: none;
         background: #ffffff;
-        top: 0;
         width: 100%;
         height: 100%;
+        padding-bottom: 80px;
         .accordion-content {
             height: 100%;
             overflow-y: scroll;
-            transition: 0s;
         }
     }
-    // #accordion-menu:checked  ~ .accordion-contents-zone {  //ラベルを押下し、見えないチェックボックスをオンにしたとき
-    //     background: #ffffff;
-    //     opacity: 1;
-    //     height: 100%;
-    //     top: 0;
-    //     left: 0;
-    //     right: 0;
-    //     bottom: 0;
-    //     padding-top: 64px;
-    //     visibility: visible;
-    //     @media #{$pc} {
-    //         height: 0;
-    //         visibility: hidden;
-    //     }
-    // }
     .header-label {
         background: transparent;
         border: none;
@@ -98,7 +82,7 @@
     display: none;
     @media #{$pc} {
         display: table-cell;
-        vertical-align: middle;    
+        vertical-align: middle;
     }
     .width-pc-menu-ul {
         list-style: none;

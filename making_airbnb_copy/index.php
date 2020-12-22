@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <?php include("top-toggle.html"); ?>
+    <?php include("top-toggle.php"); ?>
 
     <div class="business-prg">
         <!-- body1 -->
@@ -191,6 +191,6 @@
             
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="js/style.js"></script>   
+    <script src="scripts/style.min.js"></script>
 </body>
 </html>
