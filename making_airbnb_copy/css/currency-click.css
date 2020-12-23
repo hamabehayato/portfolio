@@ -1,0 +1,90 @@
+.currency-select {
+  display: none;
+  position: absolute;
+  inset: 0;
+  z-index: 1000; }
+
+.currency-select-zone {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0;
+  height: 100%;
+  overflow-y: scroll;
+  padding-top: 40px; }
+  @media (min-width: 744px) {
+    .currency-select-zone {
+      padding: 40px;
+      overflow-y: none; } }
+
+.currency-out {
+  position: absolute;
+  inset: 0; }
+
+.currency-select-bg {
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  padding-bottom: 60px; }
+  @media (min-width: 744px) {
+    .currency-select-bg {
+      height: 100%;
+      overflow-y: scroll; } }
+
+.currency-cancel-icon-zone {
+  padding: 0 24px;
+  padding-bottom: 10px; }
+
+.currency-line {
+  border-color: #ebebeb;
+  margin-bottom: 24px; }
+
+.currency-cancel-icon {
+  font-size: 36px;
+  cursor: pointer; }
+
+.currency-select-title {
+  font-size: 24px;
+  padding: 0 24px;
+  margin-bottom: 10px; }
+
+.currency-buttons-zone {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: -8px;
+  padding: 24px; }
+
+.currency-change {
+  color: #464444;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 9px 12px; }
+  .currency-change:active {
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px #918d8d; }
+  .currency-change:hover {
+    background: rgba(165, 161, 161, 0.1); }
+
+.currency-button {
+  display: inline-block;
+  flex-basis: 50%;
+  padding: 8px; }
+  @media (min-width: 744px) {
+    .currency-button {
+      flex-basis: 33.333%; } }
+  @media (min-width: 900px) {
+    .currency-button {
+      flex-basis: 25%; } }
+  @media (min-width: 1128px) {
+    .currency-button {
+      flex-basis: 20%; } }
+
+.currency-area {
+  color: #c5c2c2; }
+
+/*# sourceMappingURL=currency-click.css.map */

@@ -1,23 +1,34 @@
 <header>
+    <?php include('top-toggle-sub/language-click.html') ?>
+    <?php include('top-toggle-sub/currency-click.html') ?>
+
     <section class="width-pc-placement">
     <div class="header-label-zone">
         <input id="accordion-menu" type="checkbox" name="accordinon-menu" >
+        
         <label for="accordion-menu" class="header-label">
             <div class="header-label-size">
                 <img src="img/header-icon.png" alt="">
             </div>
             <div class="header-arrow"></div>
         </label>
+        <!-- 1128px以上で header-label と差し替え -->
+        <a href="#" class="max-width-link">
+            <div class="header-link-size">
+                <img src="img/header-icon.png" alt="">
+            </div>
+        </a>
+        
         <div class="width-pc-table-cell"></div>
         <div class="header-width-pc-menu">
             <ul class="width-pc-menu-ul">
                 <li class="width-pc-menu-li">
-                    <button class="width-pc-button">
+                    <button class="width-pc-button language">
                         <span><img src="img/earth.svg" alt=""></span>日本語(JP)
                     </button>
                 </li>
                 <li class="width-pc-menu-li">
-                    <button class="width-pc-button">₪ ILS</button>
+                    <button class="width-pc-button currency">₪ ILS</button>
                 </li>
                 <li class="width-pc-menu-li">
                     <button class="width-pc-button">ホストをはじめる</button>
@@ -35,8 +46,6 @@
             </ul>
         </div>
         <nav class="accordion-contents-zone">
-        <?php include('top-toggle-button-click.html') ?>
-            
             <div class="accordion-content">
                 <ul class="header-ul">
                     <li class="header-li">
@@ -66,7 +75,7 @@
                             <div class="header-a-zone">言語<br>日本語(JP)</div>
                             <article class="glove"><img src="img/globe.svg" alt=""></article>
                         </button>
-                        <button class="header-button">
+                        <button class="header-button currency">
                             <div class="header-a-zone">通貨<br>₪ ILS</div>
                         </button>
                     </li>

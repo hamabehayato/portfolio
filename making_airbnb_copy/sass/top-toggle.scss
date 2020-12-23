@@ -49,7 +49,7 @@
         padding:  12px 24px;
         z-index: 50;
         @media #{$pc} {
-            display: table-cell;
+            display: none;
         }
         .header-label-size {
             filter: brightness(1) invert(0);
@@ -74,6 +74,28 @@
                 display: none;
             }
         }
+    }
+}
+
+.max-width-link {
+    display: none;
+    @media #{$pc} {
+        background: transparent;
+        display: flex;
+        cursor: pointer;
+        position: absolute;
+        padding: 12px 24px;
+    }
+    .header-link-size {
+        filter: brightness(1) invert(0);
+        width: 36px;
+        height: 40px;
+        margin-right: 8px;
+    }
+    img {
+        transition: .3s;
+        width: 100%;
+        height: 100%;
     }
 }
 

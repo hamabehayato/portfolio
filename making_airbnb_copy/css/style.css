@@ -41,7 +41,7 @@
     z-index: 50; }
     @media only screen and (min-width: 1128px) {
       .header-label-zone .header-label {
-        display: table-cell; } }
+        display: none; } }
     .header-label-zone .header-label .header-label-size {
       filter: brightness(1) invert(0);
       width: 36px;
@@ -62,6 +62,25 @@
       @media only screen and (min-width: 1128px) {
         .header-label-zone .header-label .header-arrow {
           display: none; } }
+
+.max-width-link {
+  display: none; }
+  @media only screen and (min-width: 1128px) {
+    .max-width-link {
+      background: transparent;
+      display: flex;
+      cursor: pointer;
+      position: absolute;
+      padding: 12px 24px; } }
+  .max-width-link .header-link-size {
+    filter: brightness(1) invert(0);
+    width: 36px;
+    height: 40px;
+    margin-right: 8px; }
+  .max-width-link img {
+    transition: .3s;
+    width: 100%;
+    height: 100%; }
 
 .header-width-pc-menu {
   display: none; }
@@ -160,6 +179,14 @@
   height: 100%;
   overflow-y: scroll;
   padding-top: 40px; }
+  @media (min-width: 744px) {
+    .language-select-zone {
+      padding: 40px;
+      overflow-y: none; } }
+
+.language-out {
+  position: absolute;
+  inset: 0; }
 
 .language-select-bg {
   background: #ffffff;
@@ -167,11 +194,28 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 100vw;
-  padding: 0 24px 60px; }
+  width: 100%;
+  padding-bottom: 60px; }
+  @media (min-width: 744px) {
+    .language-select-bg {
+      height: 100%;
+      overflow-y: scroll; } }
+
+.language-cancel-icon-zone {
+  padding: 0 24px;
+  padding-bottom: 10px; }
+
+.language-line {
+  border-color: #ebebeb;
+  margin-bottom: 24px; }
+
+.language-cancel-icon {
+  font-size: 36px;
+  cursor: pointer; }
 
 .language-select-title {
   font-size: 24px;
+  padding: 0 24px;
   margin-bottom: 10px; }
 
 .language-buttons-zone {
@@ -180,21 +224,124 @@
   list-style: none;
   padding: 0;
   margin: -8px;
-  padding: 24px 0; }
+  padding: 24px; }
 
-.language-chage {
+.language-change {
   color: #464444;
   display: block;
   font-size: 14px;
   text-decoration: none;
   padding: 9px 12px; }
+  .language-change:active {
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px #918d8d; }
+  .language-change:hover {
+    background: rgba(165, 161, 161, 0.1); }
 
 .language-button {
   display: inline-block;
   flex-basis: 50%;
   padding: 8px; }
+  @media (min-width: 744px) {
+    .language-button {
+      flex-basis: 33.333%; } }
+  @media (min-width: 900px) {
+    .language-button {
+      flex-basis: 25%; } }
+  @media (min-width: 1128px) {
+    .language-button {
+      flex-basis: 20%; } }
 
 .language-area {
+  color: #c5c2c2; }
+
+.currency-select {
+  display: none;
+  position: absolute;
+  inset: 0;
+  z-index: 1000; }
+
+.currency-select-zone {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0;
+  height: 100%;
+  overflow-y: scroll;
+  padding-top: 40px; }
+  @media (min-width: 744px) {
+    .currency-select-zone {
+      padding: 40px;
+      overflow-y: none; } }
+
+.currency-out {
+  position: absolute;
+  inset: 0; }
+
+.currency-select-bg {
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  padding-bottom: 60px; }
+  @media (min-width: 744px) {
+    .currency-select-bg {
+      height: 100%;
+      overflow-y: scroll; } }
+
+.currency-cancel-icon-zone {
+  padding: 0 24px;
+  padding-bottom: 10px; }
+
+.currency-line {
+  border-color: #ebebeb;
+  margin-bottom: 24px; }
+
+.currency-cancel-icon {
+  font-size: 36px;
+  cursor: pointer; }
+
+.currency-select-title {
+  font-size: 24px;
+  padding: 0 24px;
+  margin-bottom: 10px; }
+
+.currency-buttons-zone {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: -8px;
+  padding: 24px; }
+
+.currency-change {
+  color: #464444;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 9px 12px; }
+  .currency-change:active {
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px #918d8d; }
+  .currency-change:hover {
+    background: rgba(165, 161, 161, 0.1); }
+
+.currency-button {
+  display: inline-block;
+  flex-basis: 50%;
+  padding: 8px; }
+  @media (min-width: 744px) {
+    .currency-button {
+      flex-basis: 33.333%; } }
+  @media (min-width: 900px) {
+    .currency-button {
+      flex-basis: 25%; } }
+  @media (min-width: 1128px) {
+    .currency-button {
+      flex-basis: 20%; } }
+
+.currency-area {
   color: #c5c2c2; }
 
 * {

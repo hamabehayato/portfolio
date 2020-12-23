@@ -3,7 +3,8 @@ $tablet:  "only screen and (min-width:744px)";
 $smartphone:  "only screen and (max-width:743px)";
 
 @import "top-toggle";
-@import "top-toggle-button-click";
+@import "language-click";
+@import "currency-click";
 @import "business-prg";
 @import "index_link_movie";
 @import "footer";

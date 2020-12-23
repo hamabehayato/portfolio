@@ -1,5 +1,5 @@
 $(function() {
-    // airbnbアイコンが押された時
+    // airbnbアイコンが押下、トグルの開け閉め
     $('.header-label').click(function() {
         if ($('#accordion-menu').prop("checked") == false) {
             $('.accordion-contents-zone').slideToggle(200);
@@ -23,9 +23,28 @@ $(function() {
 
     // アコーディングメニュー内、言語ボタンが押された時
     $('.language').click(function() {
-        $('.language-select').show();
-        $('.slide-down').hide();
-        $('.language-select-zone').slideDown(500);
-        $('.slide-down').slideDown(1000);
+        var sareaHeight = $('.language-select');
+        $('.language-select').fadeIn(500);
+        $('.language-slide-down').hide();
+        $('.language-select-zone').slideDown(1500);
+        $('.language-slide-down').slideDown(1500);
+    });
+    // 言語ボタンが押下後、外黒枠か、×ボタンで閉じる
+    $('.language-cancel-icon, .language-out').click(function() {
+        $('.language-select').hide();
+    });
+    
+    // ＊、通貨ボタンが押された時
+    $('.currency').click(function() {
+        var sareaHeight = $('.currency-select');
+        $('.currency-select').fadeIn(500);
+        $('.currency-slide-down').hide();
+        $('.currency-select-zone').slideDown(1500);
+        $('.currency-slide-down').slideDown(1500);
+    });
+    // ＊、外黒枠か、×ボタンで閉じる
+    $('.currency-cancel-icon, .currency-out').click(function() {
+        $('.currency-select').hide();
     });
 });
+
