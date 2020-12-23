@@ -13,7 +13,7 @@
             <div class="header-arrow"></div>
         </label>
         <!-- 1128px以上で header-label と差し替え -->
-        <a href="#" class="max-width-link">
+        <a href="dammy.html" class="max-width-link">
             <div class="header-link-size">
                 <img src="img/header-icon.png" alt="">
             </div>
@@ -49,7 +49,7 @@
             <div class="accordion-content">
                 <ul class="header-ul">
                     <li class="header-li">
-                        <div class="header-a-zone"><a class="header-a" href="#">ホーム</a></div>
+                        <div class="header-a-zone"><a class="header-a" href="dammy.html">ホーム</a></div>
                     </li>
 
                     <li>
@@ -57,13 +57,13 @@
                     </li>
 
                     <li class="header-li">
-                        <div class="header-a-zone"><a class="header-a" href="#">友達を招待する</a></div>
+                        <div class="header-a-zone"><a class="header-a" href="dammy.html">友達を招待する</a></div>
                     </li>
                     <li class="header-li">
-                        <div class="header-a-zone"><a class="header-a" href="#">ホストを紹介</a></div>
+                        <div class="header-a-zone"><a class="header-a" href="dammy.html">ホストを紹介</a></div>
                     </li>
                     <li class="header-li">
-                        <div class="header-a-zone"><a class="header-a" href="#">Airbnbビジネスプログラム</a></div>
+                        <div class="header-a-zone"><a class="header-a" href="dammy.html">Airbnbビジネスプログラム</a></div>
                     </li>
                     
                     <li>
@@ -86,7 +86,7 @@
 
                     <li class="header-li">
                         <div class="header-a-zone header-a-zone-flex">
-                            <a class="header-a" href="#">
+                            <a class="header-a" href="dammy.html">
                                 <div>お部屋を掲載</div>
                                 <div class="sub-text"><strong>月あたり最大₪3,624</strong>の収益</div>
                             </a>
@@ -94,11 +94,11 @@
                         </div>
                     </li>
                     <li class="header-li">
-                        <div class="header-a-zone"><a class="header-a" href="#">お家のホスティングについて</a></div>
+                        <div class="header-a-zone"><a class="header-a" href="dammy.html">お家のホスティングについて</a></div>
                     </li>
                     <li class="header-li">
                         <div class="header-a-zone">
-                            <a class="header-a" href="#">
+                            <a class="header-a" href="dammy.html">
                                 <div>体験をホストする</div>
                                 <div class="sub-text">好きを仕事に</div>
                             </a>
@@ -109,13 +109,13 @@
                     </li>
 
                     <li class="header-li">
-                        <div class="header-a-zone"><a class="header-a" href="#">ヘルプ</a></div>
+                        <div class="header-a-zone"><a class="header-a" href="dammy.html">ヘルプ</a></div>
                     </li>
                     <li class="header-li">
-                        <div class="header-a-zone"><a class="header-a" href="#">登録する</a></div>
+                        <div class="header-a-zone"><a class="header-a" href="dammy.html">登録する</a></div>
                     </li>
                     <li class="header-li">
-                        <div class="header-a-zone"><a class="header-a" href="#">ログイン</a></div>
+                        <div class="header-a-zone"><a class="header-a" href="dammy.html">ログイン</a></div>
                     </li>
                 </ul>
             </div>

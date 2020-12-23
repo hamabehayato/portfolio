@@ -40,7 +40,7 @@
                     </div>
                     <div class="business-trip-management">
                         <p>出張管理をご担当ですか？</p>
-                        <a href="">もっと詳しく <span class="arrow"></span></a>
+                        <a href="dammy.html">もっと詳しく <span class="arrow"></span></a>
                     </div>
 
                 </section>
@@ -83,7 +83,7 @@
                             <div class="body3-text-tablet">
                                 <h3>出張先でも、アットホーム</h3>
                                 <p>出張のときも、新天地に異動のときも安心。他の出張者が5つ星評価をつけたお部屋やデザイナーズホテルを探しましょう。</p>
-                                <a href="#">仕事用スペースを完備した宿泊先を検索 <span class="arrow"></span></a>
+                                <a href="dammy.html">仕事用スペースを完備した宿泊先を検索 <span class="arrow"></span></a>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                             <div class="body3-text-tablet">
                                 <h3>チームの心をひとつに</h3>
                                 <p>ラーメン作り教室やカヌーレッスンに参加。普段オフィスでは目にできない同僚たちの意外な面に触れ、深いレベルでつながれます。</p>
-                                <a href="#">Airbnbの「体験」を検索 <span class="arrow"></span></a>
+                                <a href="dammy.html">Airbnbの「体験」を検索 <span class="arrow"></span></a>
                             </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@
                         <div class="body3-text-tablet">
                             <h3>創造力をかきたてるスペース</h3>
                             <p>煮詰まったら1日オフサイトで気分を変えてみませんか？ひらめきが湧く環境で、チームの生産性を高めましょう</p>
-                            <a href="#">Wi-Fi完備の宿泊先を見る <span class="arrow"></span></a>
+                            <a href="dammy.html">Wi-Fi完備の宿泊先を見る <span class="arrow"></span></a>
                         </div>
                     </div>
                     </div>
@@ -131,7 +131,7 @@
                             <div class="size-pc">
                                 <h3>安全第一のシステム</h3>
                                 <p>セキュアな支払いシステムから経験者のレビューまで、Airbnbは安全中心のシステムです。</p>
-                                <a href="#">もっと詳しく <span class="arrow"></span></a>
+                                <a href="dammy.html">もっと詳しく <span class="arrow"></span></a>
                             </div>
                         </div>
                         <div class="body4-separate-border"></div>
@@ -139,7 +139,7 @@
                             <div class="size-pc"></div>
                                 <h3>グローバルカスタマーサポート</h3>
                                 <p>専門スタッフが、年中無休で営業時間内に11言語でサポートいたします。</p>
-                                <a href="#">もっと詳しく <span class="arrow"></span></a>
+                                <a href="dammy.html">もっと詳しく <span class="arrow"></span></a>
                             </div>
                         </div>
                     </div>
@@ -179,7 +179,7 @@
                             <div class="body4-form-under-text">
                                 <p>出張管理をご担当ですか？</p>
                                 <p class="merit">こんなにある、Airbnbビジネスプログラム法人企業様のメリット。</p>
-                                <a href="#">もっと詳しく <span class="arrow"></span></a>
+                                <a href="dammy.html">もっと詳しく <span class="arrow"></span></a>
                             </div>
                         </div>
                     </div>

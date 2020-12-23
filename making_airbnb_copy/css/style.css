@@ -606,9 +606,15 @@ body {
     .business-prg-main .body3 section {
       margin-bottom: 50px; } }
   .business-prg-main .body3 a {
-    color: #008489; }
+    color: #008489;
+    display: inline-flex;
+    text-decoration: none; }
   .business-prg-main .body3 .arrow {
-    border-color: #008489 #008489 transparent transparent; }
+    width: 8px;
+    height: 8px;
+    border: 1.8px solid;
+    transform: rotate(45deg);
+    margin: 8px; }
 @media only screen and (min-width: 744px) {
   .business-prg-main .body3-tablet-margin {
     overflow: auto !important;
@@ -647,6 +653,10 @@ body {
       margin-right: 15px;
       height: 500px;
       padding: 0; } }
+  .business-prg-main .body3-back-white-text a {
+    color: #008489; }
+    .business-prg-main .body3-back-white-text a .arrow {
+      border-color: #008489 #008489 transparent transparent; }
 @media only screen and (min-width: 744px) {
   .business-prg-main .body3-text-tablet {
     margin: 0 12%; } }
@@ -983,6 +993,7 @@ footer {
     color: #222222;
     cursor: pointer;
     font-size: 14px;
+    text-decoration: none;
     line-height: 18px; }
     footer .footer-a:hover {
       color: #555454; }

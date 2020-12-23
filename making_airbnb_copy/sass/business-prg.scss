@@ -348,9 +348,15 @@ body {
         }
         a {
             color: #008489;
+            display: inline-flex;
+            text-decoration: none;
         }
         .arrow {
-            border-color: #008489 #008489 transparent transparent;
+            width: 8px;
+            height: 8px;
+            border: 1.8px solid;
+            transform: rotate(45deg);
+            margin: 8px;
         }
     }
 
@@ -405,6 +411,12 @@ body {
             margin-right: 15px;
             height: 500px;
             padding: 0;
+        }
+        a {
+            color: #008489;
+            .arrow {
+                border-color: #008489 #008489 transparent transparent;
+            }
         }
     }
 
