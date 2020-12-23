@@ -722,9 +722,16 @@ body {
     .business-prg-main .body4-back-green {
       margin-bottom: 96px; } }
   .business-prg-main .body4-back-green a {
-    color: #ffffff; }
+    color: #ffffff;
+    display: inline-flex;
+    text-decoration: none; }
     .business-prg-main .body4-back-green a .arrow {
-      border-color: #ffffff #ffffff transparent transparent; }
+      border-color: #ffffff #ffffff transparent transparent !important;
+      width: 8px;
+      height: 8px;
+      border: 1.8px solid;
+      transform: rotate(45deg);
+      margin: 8px; }
 @media only screen and (min-width: 744px) {
   .business-prg-main .back-green-tablet {
     max-width: 636px;

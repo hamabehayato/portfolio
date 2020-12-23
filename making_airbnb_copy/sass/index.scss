@@ -231,13 +231,13 @@ body {
         p {
             @media #{$tablet} {
                 display: inline;
-            }    
+            }
         }
         .arrow {
             border-color: #008489 #008489 transparent transparent;
             @media #{$tablet} {
                 border-color: #ffffff #ffffff transparent transparent;
-            }    
+            }
         }
     }
 
@@ -513,8 +513,15 @@ body {
         }
             a {
             color: #ffffff;
+            display: inline-flex;
+            text-decoration: none;
             .arrow {
-                border-color: #ffffff #ffffff transparent transparent;
+                border-color: #ffffff #ffffff transparent transparent !important;
+                width: 8px;
+                height: 8px;
+                border: 1.8px solid;
+                transform: rotate(45deg);
+                margin: 8px;
             }
         }
     }
@@ -526,22 +533,22 @@ body {
             @media #{$pc} {
                 max-width: 1080px;
                 display: flex;
-            } 
+            }
         }
     }
 
     .body4-back-green-text {
         padding: 64px 0;
         max-width: 70%;
-        margin: 0 auto;  
+        margin: 0 auto;
         @media #{$pc} {
             width: 50%;
-        } 
+        }
         .size-pc {
             @media #{$pc} {
                 max-width: 70%;
                 margin: 0 auto;
-            }  
+            }
         }
         h3 {
             font-size: 24px;
