@@ -6,7 +6,7 @@
     <div class="header-label-zone">
         <input id="accordion-menu" type="checkbox" name="accordinon-menu" >
         
-        <label for="accordion-menu" class="header-label">
+        <label for="accordion-menu" class="header-label toggle-off">
             <div class="header-label-size">
                 <img src="img/header-icon.png" alt="">
             </div>

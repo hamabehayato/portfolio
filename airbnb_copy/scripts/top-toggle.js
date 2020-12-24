@@ -1,17 +1,19 @@
 $(function() {
     // airbnbアイコンが押下、トグルの開け閉め
     $('.header-label').click(function() {
-        if ($('#accordion-menu').prop("checked") == false) {
-            $('.accordion-contents-zone').slideToggle(200);
-            $('.header-label-size > img').css('filter','brightness(50%) sepia(100) saturate(100) hue-rotate(25deg)');
+        if ($(this).hasClass('toggle-off')) {
+            $(this).removeClass('toggle-off');
+            $('.accordion-contents-zone').slideToggle(250);
+            $('.header-label-size').css('filter','brightness(50%) sepia(100) saturate(100) hue-rotate(25deg)');
             $('.header-label-zone').addClass('toggle-on');
             $('.header-arrow').css({
                 'border-color':'transparent #484848 #484848 transparent',
                 'transform':'rotate(225deg)'
             });
         } else {
-            $('.accordion-contents-zone').slideToggle(200);
-            $('.header-label-size > img').css('filter','');
+            $(this).addClass('toggle-off');
+            $('.accordion-contents-zone').slideToggle(250);
+            $('.header-label-size').css('filter','');
             $('.header-label-zone').css('position', 'absolute');
             $('.header-label-zone').removeClass('toggle-on');
             $('.header-arrow').css({
