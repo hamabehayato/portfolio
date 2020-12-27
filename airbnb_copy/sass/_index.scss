@@ -3,24 +3,13 @@
     margin: 0;
 }
 
+@import "mixins";
+
 body {
     font-family: "Circular", "-apple-system", "BlinkMacSystemFont", "Roboto", "Helvetica Neue", "sans-serif";
 }
 
 .business-prg {
-
-    a {
-        display: inline-flex;
-        text-decoration: none;
-        .arrow {
-            width: 8px;
-            height: 8px;
-            border: 1.8px solid;
-            transform: rotate(45deg);
-            margin: 8px;
-        }
-    }
-
     a:hover {
         text-decoration: underline;
     }
@@ -41,7 +30,7 @@ body {
             margin-bottom: 101px;
         }
         a {
-            color: #ffffff;
+            @include a(#ffffff);
         }
     }
     .body1-link-video-button  {
@@ -224,6 +213,7 @@ body {
             margin-left: 180px;
         }
         a {
+            @include a(#ffffff);
             @media #{$smartphone} {
                 color:#008489;
             }
@@ -234,7 +224,7 @@ body {
             }
         }
         .arrow {
-            border-color: #008489 #008489 transparent transparent;
+            @include arrow(#008489 #008489 transparent transparent);
             @media #{$tablet} {
                 border-color: #ffffff #ffffff transparent transparent;
             }
@@ -346,18 +336,6 @@ body {
                 margin-bottom: 50px;
             }
         }
-        a {
-            color: #008489;
-            display: inline-flex;
-            text-decoration: none;
-        }
-        .arrow {
-            width: 8px;
-            height: 8px;
-            border: 1.8px solid;
-            transform: rotate(45deg);
-            margin: 8px;
-        }
     }
 
     .body3-tablet-margin {
@@ -388,13 +366,13 @@ body {
         }
     }
 
-    .body3-back-white-text {
-        color: #484848;
-        padding: 40px 70px 50px 70px;
+    .body3-back-white-text-zone {
+        @include body3-text-zone(#ffffff, #484848);
+        @media #{$tablet} {
+            @include body3-text-zone-tablet(rgb(235, 235, 235));
+        }
         h3 {
-            font-size: 24px;
-            font-weight: 300;
-            margin-bottom: 20px;
+            @include body3-title;
             @media #{$tablet} {
                 font-size: 32px;
             }
@@ -404,18 +382,10 @@ body {
             font-weight: 300;
             margin-bottom: 20px;
         }
-        @media #{$tablet} {
-            background-color: rgb(235, 235, 235);
-            display: table-cell;
-            vertical-align: middle;
-            margin-right: 15px;
-            height: 500px;
-            padding: 0;
-        }
         a {
-            color: #008489;
+            @include a(#008489);
             .arrow {
-                border-color: #008489 #008489 transparent transparent;
+                @include arrow(#008489 #008489 transparent transparent)
             }
         }
     }
@@ -474,32 +444,23 @@ body {
         }
     }
 
-    .body3-back-green-text {
-        background-color: rgb(0, 108, 112);
-        color: #ffffff;
-        padding: 40px 70px 50px 70px;
-        margin-bottom: 15px;
+    .body3-back-green-text-zone {
+        @include body3-text-zone(rgb(0, 108, 112), #ffffff);
+        @media #{$tablet} {
+            @include body3-text-zone-tablet(rgb(0, 108, 112));
+        }
         h3 {
-            font-size: 24px;
-            font-weight: 300;
-            margin-bottom: 20px;
+            @include body3-title;
         }
         p {
             font-weight: 300;
             margin-bottom: 20px;
         }
         a {
-            color: #ffffff;
+            @include a(#ffffff);
             .arrow {
-                border-color: #ffffff #ffffff transparent transparent;
+                @include arrow(#ffffff #ffffff transparent transparent);
             }
-        }
-        @media #{$tablet} {
-            display: table-cell;
-            vertical-align: middle;
-            margin-left: 15px;
-            height: 500px;
-            padding: 0;
         }
     }
 
@@ -512,16 +473,9 @@ body {
             margin-bottom: 96px;
         }
             a {
-            color: #ffffff;
-            display: inline-flex;
-            text-decoration: none;
+            @include a(#ffffff);
             .arrow {
-                border-color: #ffffff #ffffff transparent transparent !important;
-                width: 8px;
-                height: 8px;
-                border: 1.8px solid;
-                transform: rotate(45deg);
-                margin: 8px;
+                @include arrow(#ffffff #ffffff transparent transparent);
             }
         }
     }
@@ -728,11 +682,11 @@ body {
             font-weight: 200;
         }
         a {
-            color: #008489;
+            @include a(#008489);
             font-size: 14px;
             .arrow {
-                border-color: #008489 #008489 transparent transparent;
-                margin-top: 6px;
+                @include arrow(#008489 #008489 transparent transparent);
+                margin-top: 5px;
             }
         }
     }

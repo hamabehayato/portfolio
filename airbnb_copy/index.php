@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/favicon.png">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <title>making_airbnb_copy</title>
+    <title>airbnb_copy</title>
 </head>
 <body>
 
@@ -79,7 +79,7 @@
             <section>
                 <div class="body3-tablet-margin">
                     <div class="body3-tablet-float float-white">
-                        <div class="body3-back-white-text">
+                        <div class="body3-back-white-text-zone">
                             <div class="body3-text-tablet">
                                 <h3>出張先でも、アットホーム</h3>
                                 <p>出張のときも、新天地に異動のときも安心。他の出張者が5つ星評価をつけたお部屋やデザイナーズホテルを探しましょう。</p>
@@ -94,7 +94,7 @@
                 
                 <div class="body3-tablet-margin">
                     <div class="body3-tablet-float float-green">
-                        <div class="body3-back-green-text">
+                        <div class="body3-back-green-text-zone">
                             <div class="body3-text-tablet">
                                 <h3>チームの心をひとつに</h3>
                                 <p>ラーメン作り教室やカヌーレッスンに参加。普段オフィスでは目にできない同僚たちの意外な面に触れ、深いレベルでつながれます。</p>
@@ -108,7 +108,8 @@
                 </div>
 
                 <div class="body3-tablet-margin">
-                    <div class="body3-tablet-float float-white">                    <div class="body3-back-white-text">
+                    <div class="body3-tablet-float float-white">
+                    <div class="body3-back-white-text-zone">
                         <div class="body3-text-tablet">
                             <h3>創造力をかきたてるスペース</h3>
                             <p>煮詰まったら1日オフサイトで気分を変えてみませんか？ひらめきが湧く環境で、チームの生産性を高めましょう</p>

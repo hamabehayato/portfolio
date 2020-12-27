@@ -37,7 +37,7 @@
       .header-label-zone .header-label {
         display: none; } }
     .header-label-zone .header-label .header-label-size {
-      transition: .4s;
+      transition: .3s;
       width: 36px;
       height: 40px;
       margin-right: 8px; }
@@ -345,15 +345,6 @@
 body {
   font-family: "Circular", "-apple-system", "BlinkMacSystemFont", "Roboto", "Helvetica Neue", "sans-serif"; }
 
-.business-prg a {
-  display: inline-flex;
-  text-decoration: none; }
-  .business-prg a .arrow {
-    width: 8px;
-    height: 8px;
-    border: 1.8px solid;
-    transform: rotate(45deg);
-    margin: 8px; }
 .business-prg a:hover {
   text-decoration: underline; }
 .business-prg input {
@@ -367,7 +358,9 @@ body {
     .business-prg .body1 {
       margin-bottom: 101px; } }
   .business-prg .body1 a {
-    color: #ffffff; }
+    color: #ffffff;
+    display: inline-flex;
+    text-decoration: none; }
 .business-prg .body1-link-video-button {
   color: #ffffff;
   display: inline;
@@ -512,14 +505,23 @@ body {
   @media only screen and (min-width: 1128px) {
     .business-prg .business-trip-management {
       margin-left: 180px; } }
-  @media only screen and (max-width: 743px) {
-    .business-prg .business-trip-management a {
-      color: #008489; } }
+  .business-prg .business-trip-management a {
+    color: #ffffff;
+    display: inline-flex;
+    text-decoration: none; }
+    @media only screen and (max-width: 743px) {
+      .business-prg .business-trip-management a {
+        color: #008489; } }
   @media only screen and (min-width: 744px) {
     .business-prg .business-trip-management p {
       display: inline; } }
   .business-prg .business-trip-management .arrow {
-    border-color: #008489 #008489 transparent transparent; }
+    border-color: #008489 #008489 transparent transparent !important;
+    width: 8px;
+    height: 8px;
+    border: 1.8px solid;
+    transform: rotate(45deg);
+    margin: 8px; }
     @media only screen and (min-width: 744px) {
       .business-prg .business-trip-management .arrow {
         border-color: #ffffff #ffffff transparent transparent; } }
@@ -599,16 +601,6 @@ body {
   @media only screen and (min-width: 744px) {
     .business-prg-main .body3 section {
       margin-bottom: 50px; } }
-  .business-prg-main .body3 a {
-    color: #008489;
-    display: inline-flex;
-    text-decoration: none; }
-  .business-prg-main .body3 .arrow {
-    width: 8px;
-    height: 8px;
-    border: 1.8px solid;
-    transform: rotate(45deg);
-    margin: 8px; }
 @media only screen and (min-width: 744px) {
   .business-prg-main .body3-tablet-margin {
     overflow: auto !important;
@@ -625,32 +617,40 @@ body {
   .business-prg-main .float-green {
     float: left;
     padding-right: 7.5px; } }
-.business-prg-main .body3-back-white-text {
+.business-prg-main .body3-back-white-text-zone {
+  background-color: #ffffff;
   color: #484848;
   padding: 40px 70px 50px 70px; }
-  .business-prg-main .body3-back-white-text h3 {
-    font-size: 24px;
-    font-weight: 300;
-    margin-bottom: 20px; }
-    @media only screen and (min-width: 744px) {
-      .business-prg-main .body3-back-white-text h3 {
-        font-size: 32px; } }
-  .business-prg-main .body3-back-white-text p {
-    font-size: 18px;
-    font-weight: 300;
-    margin-bottom: 20px; }
   @media only screen and (min-width: 744px) {
-    .business-prg-main .body3-back-white-text {
+    .business-prg-main .body3-back-white-text-zone {
       background-color: #ebebeb;
       display: table-cell;
       vertical-align: middle;
       margin-right: 15px;
       height: 500px;
       padding: 0; } }
-  .business-prg-main .body3-back-white-text a {
-    color: #008489; }
-    .business-prg-main .body3-back-white-text a .arrow {
-      border-color: #008489 #008489 transparent transparent; }
+  .business-prg-main .body3-back-white-text-zone h3 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px; }
+    @media only screen and (min-width: 744px) {
+      .business-prg-main .body3-back-white-text-zone h3 {
+        font-size: 32px; } }
+  .business-prg-main .body3-back-white-text-zone p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px; }
+  .business-prg-main .body3-back-white-text-zone a {
+    color: #008489;
+    display: inline-flex;
+    text-decoration: none; }
+    .business-prg-main .body3-back-white-text-zone a .arrow {
+      border-color: #008489 #008489 transparent transparent !important;
+      width: 8px;
+      height: 8px;
+      border: 1.8px solid;
+      transform: rotate(45deg);
+      margin: 8px; }
 @media only screen and (min-width: 744px) {
   .business-prg-main .body3-text-tablet {
     margin: 0 12%; } }
@@ -685,29 +685,36 @@ body {
 @media only screen and (min-width: 744px) {
   .business-prg-main .back-green-after {
     height: 100%; } }
-.business-prg-main .body3-back-green-text {
+.business-prg-main .body3-back-green-text-zone {
   background-color: #006c70;
   color: #ffffff;
-  padding: 40px 70px 50px 70px;
-  margin-bottom: 15px; }
-  .business-prg-main .body3-back-green-text h3 {
+  padding: 40px 70px 50px 70px; }
+  @media only screen and (min-width: 744px) {
+    .business-prg-main .body3-back-green-text-zone {
+      background-color: #006c70;
+      display: table-cell;
+      vertical-align: middle;
+      margin-right: 15px;
+      height: 500px;
+      padding: 0; } }
+  .business-prg-main .body3-back-green-text-zone h3 {
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 20px; }
-  .business-prg-main .body3-back-green-text p {
+  .business-prg-main .body3-back-green-text-zone p {
     font-weight: 300;
     margin-bottom: 20px; }
-  .business-prg-main .body3-back-green-text a {
-    color: #ffffff; }
-    .business-prg-main .body3-back-green-text a .arrow {
-      border-color: #ffffff #ffffff transparent transparent; }
-  @media only screen and (min-width: 744px) {
-    .business-prg-main .body3-back-green-text {
-      display: table-cell;
-      vertical-align: middle;
-      margin-left: 15px;
-      height: 500px;
-      padding: 0; } }
+  .business-prg-main .body3-back-green-text-zone a {
+    color: #ffffff;
+    display: inline-flex;
+    text-decoration: none; }
+    .business-prg-main .body3-back-green-text-zone a .arrow {
+      border-color: #ffffff #ffffff transparent transparent !important;
+      width: 8px;
+      height: 8px;
+      border: 1.8px solid;
+      transform: rotate(45deg);
+      margin: 8px; }
 .business-prg-main .body4-back-green {
   background: #006c70;
   color: #ffffff;
@@ -891,10 +898,17 @@ body {
     font-weight: 200; }
   .business-prg-main .body4-form-under-text a {
     color: #008489;
+    display: inline-flex;
+    text-decoration: none;
     font-size: 14px; }
     .business-prg-main .body4-form-under-text a .arrow {
-      border-color: #008489 #008489 transparent transparent;
-      margin-top: 6px; }
+      border-color: #008489 #008489 transparent transparent !important;
+      width: 8px;
+      height: 8px;
+      border: 1.8px solid;
+      transform: rotate(45deg);
+      margin: 8px;
+      margin-top: 5px; }
 .business-prg-main .body4-border-margin {
   border: 0.6px solid #aca8a8;
   width: 85%;
@@ -1074,5 +1088,3 @@ footer {
 .footer-bottom .details span {
   color: #222222;
   display: inline-block; }
-
-/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+@mixin a($color) {
+    color: $color;
+    display: inline-flex;
+    text-decoration: none;
+}
+
+@mixin arrow($arrow-color) {
+    border-color: $arrow-color !important;
+    width: 8px;
+    height: 8px;
+    border: 1.8px solid;
+    transform: rotate(45deg);
+    margin: 8px;
+}
+
+@mixin body3-title {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+@mixin body3-text-zone($bg-color, $color) {
+    background-color: $bg-color;
+    color: $color;
+    padding: 40px 70px 50px 70px;
+}
+
+@mixin body3-text-zone-tablet($bg-color) {
+    background-color: $bg-color;
+    display: table-cell;
+    vertical-align: middle;
+    margin-right: 15px;
+    height: 500px;
+    padding: 0;
+}
