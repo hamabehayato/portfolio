@@ -16,6 +16,7 @@
     background: transparent;
     position: absolute;
     z-index: 51;
+    width: 100vw;
     #accordion-menu {
         display: none;
     }
@@ -29,7 +30,7 @@
         padding: 64px 0 80px;
         .accordion-content {
             height: 100%;
-            overflow-y: scroll;
+            overflow-y: scroll !important;
         }
     }
     .header-label {

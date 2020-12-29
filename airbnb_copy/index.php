@@ -13,6 +13,7 @@
     <?php include("top-toggle.php"); ?>
 
     <div class="business-prg">
+        <div class="hidden-scroll-bar"></div>
         <!-- body1 -->
         <?php require('index_link_movie.html') ?>
         <div class="body1">

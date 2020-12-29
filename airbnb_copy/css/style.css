@@ -10,7 +10,8 @@
 .header-label-zone {
   background: transparent;
   position: absolute;
-  z-index: 51; }
+  z-index: 51;
+  width: 100vw; }
   .header-label-zone #accordion-menu {
     display: none; }
   .header-label-zone .accordion-contents-zone {
@@ -23,7 +24,7 @@
     padding: 64px 0 80px; }
     .header-label-zone .accordion-contents-zone .accordion-content {
       height: 100%;
-      overflow-y: scroll; }
+      overflow-y: scroll !important; }
   .header-label-zone .header-label {
     background: transparent;
     border: none;
