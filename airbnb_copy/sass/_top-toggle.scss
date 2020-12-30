@@ -79,6 +79,7 @@
         cursor: pointer;
         position: absolute;
         padding: 12px 24px;
+        z-index: 50;
     }
     .header-link-size {
         filter: brightness(1) invert(0);
