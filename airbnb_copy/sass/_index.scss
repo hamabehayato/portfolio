@@ -9,13 +9,13 @@ body {
     font-family: "Circular", "-apple-system", "BlinkMacSystemFont", "Roboto", "Helvetica Neue", "sans-serif";
 }
 
+input {
+    outline: none;
+}
+
 .business-prg {
     a:hover {
         text-decoration: underline;
-    }
-
-    input {
-        outline: none;
     }
 
     button:focus { 
@@ -226,7 +226,7 @@ body {
         .arrow {
             @include arrow(#008489 #008489 transparent transparent);
             @media #{$tablet} {
-                border-color: #ffffff #ffffff transparent transparent;
+                border-color: #ffffff #ffffff transparent transparent !important;
             }
         }
     }
