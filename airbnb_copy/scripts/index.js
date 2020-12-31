@@ -2,7 +2,7 @@ $(function() {
     // body1-movie-link
     $(".body1-link-video-button").click(function() {
         $(".body1-link-video").show();
-        $('html *').css('overflow','hidden');
+        $('*').css('overflow','hidden');
         $(window).on('touchmove.noScroll', function(e) {
             e.preventDefault();
         });
@@ -11,7 +11,7 @@ $(function() {
     // link-movie-out
     $(".cancel-icon, .link-video-out").click(function() {
         $(".body1-link-video").hide();
-        $('html *').css('overflow','visible');
+        $('*').css('overflow','visible');
         $(window).off('.noScroll');
     });
 

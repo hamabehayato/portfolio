@@ -35,8 +35,8 @@ $(function() {
         var sareaHeight = $('.language-select');
         $('.language-select').fadeIn(500);
         $('.language-slide-down').hide();
-        $('.language-select-zone').slideDown(1500);
-        $('.language-slide-down').slideDown(1500);
+        $('.language-select-zone').slideDown(500);
+        $('.language-slide-down').slideDown(500);
     });
     // 言語ボタンが押下後、外黒枠か、×ボタンで閉じる
     $('.language-cancel-icon, .language-out').click(function() {
@@ -48,8 +48,8 @@ $(function() {
         var sareaHeight = $('.currency-select');
         $('.currency-select').fadeIn(500);
         $('.currency-slide-down').hide();
-        $('.currency-select-zone').slideDown(1500);
-        $('.currency-slide-down').slideDown(1500);
+        $('.currency-select-zone').slideDown(500);
+        $('.currency-slide-down').slideDown(500);
     });
     // ＊、外黒枠か、×ボタンで閉じる
     $('.currency-cancel-icon, .currency-out').click(function() {

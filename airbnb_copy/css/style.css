@@ -166,7 +166,7 @@
 
 .language-select {
   display: none;
-  position: absolute;
+  position: fixed;
   inset: 0;
   z-index: 1000; }
 
@@ -179,8 +179,7 @@
   padding-top: 40px; }
   @media (min-width: 744px) {
     .language-select-zone {
-      padding: 40px;
-      overflow-y: none; } }
+      padding: 40px; } }
 
 .language-out {
   position: absolute;
@@ -192,28 +191,32 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 100%;
-  padding-bottom: 60px; }
+  height: 100%;
+  width: 100%; }
   @media (min-width: 744px) {
     .language-select-bg {
-      height: 100%;
-      overflow-y: scroll; } }
+      overflow: auto; } }
 
 .language-cancel-icon-zone {
   padding: 0 24px;
   padding-bottom: 10px; }
 
 .language-line {
-  border-color: #ebebeb;
-  margin-bottom: 24px; }
+  border-color: #ebebeb; }
 
 .language-cancel-icon {
   font-size: 36px;
   cursor: pointer; }
 
+.language-scroll-zone {
+  overflow-y: scroll !important;
+  height: 100%;
+  padding-bottom: 60px; }
+
 .language-select-title {
   font-size: 24px;
   padding: 0 24px;
+  margin-top: 24px;
   margin-bottom: 10px; }
 
 .language-buttons-zone {
@@ -255,7 +258,7 @@
 
 .currency-select {
   display: none;
-  position: absolute;
+  position: fixed;
   inset: 0;
   z-index: 1000; }
 
@@ -268,8 +271,7 @@
   padding-top: 40px; }
   @media (min-width: 744px) {
     .currency-select-zone {
-      padding: 40px;
-      overflow-y: none; } }
+      padding: 40px; } }
 
 .currency-out {
   position: absolute;
@@ -281,28 +283,32 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 100%;
-  padding-bottom: 60px; }
+  height: 100%;
+  width: 100%; }
   @media (min-width: 744px) {
     .currency-select-bg {
-      height: 100%;
-      overflow-y: scroll; } }
+      overflow: auto; } }
 
 .currency-cancel-icon-zone {
   padding: 0 24px;
   padding-bottom: 10px; }
 
 .currency-line {
-  border-color: #ebebeb;
-  margin-bottom: 24px; }
+  border-color: #ebebeb; }
 
 .currency-cancel-icon {
   font-size: 36px;
   cursor: pointer; }
 
+.currency-scroll-zone {
+  overflow-y: scroll !important;
+  height: 100%;
+  padding-bottom: 60px; }
+
 .currency-select-title {
   font-size: 24px;
   padding: 0 24px;
+  margin-top: 24px;
   margin-bottom: 10px; }
 
 .currency-buttons-zone {
