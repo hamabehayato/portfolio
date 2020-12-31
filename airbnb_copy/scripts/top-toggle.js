@@ -33,6 +33,7 @@ $(function() {
     // アコーディングメニュー内、言語ボタンが押された時
     $('.language').click(function() {
         var sareaHeight = $('.language-select');
+        $('*').css('overflow','hidden');
         $('.language-select').fadeIn(500);
         $('.language-slide-down').hide();
         $('.language-select-zone').slideDown(500);
@@ -40,12 +41,14 @@ $(function() {
     });
     // 言語ボタンが押下後、外黒枠か、×ボタンで閉じる
     $('.language-cancel-icon, .language-out').click(function() {
+        $('*').css('overflow','visible');
         $('.language-select').hide();
     });
     
     // ＊、通貨ボタンが押された時
     $('.currency').click(function() {
         var sareaHeight = $('.currency-select');
+        $('*').css('overflow','hidden');
         $('.currency-select').fadeIn(500);
         $('.currency-slide-down').hide();
         $('.currency-select-zone').slideDown(500);
@@ -53,6 +56,7 @@ $(function() {
     });
     // ＊、外黒枠か、×ボタンで閉じる
     $('.currency-cancel-icon, .currency-out').click(function() {
+        $('*').css('overflow','visible');
         $('.currency-select').hide();
     });
 });
