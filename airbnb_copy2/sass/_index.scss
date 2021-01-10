@@ -1,0 +1,397 @@
+@import "mixin";
+
+* {
+    box-sizing: border-box;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    margin: 0;
+}
+
+body {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+input {
+    &:focus {
+        outline: none;
+    }
+}
+.entire {
+    color: $form-text-color;
+    margin: 0 24px;
+    @media #{$pc} {
+        margin: 0 80px
+    }
+}
+
+// header
+.index-header {
+    background: #F2ECE2;
+    margin: 0 -24px;
+    padding: 0 24px;
+    @media #{$pc} {
+        padding: 0 80px;
+        margin: 0 -80px
+    }
+}
+.header-tablet-size {
+    @media #{$tablet} {
+        display: flex;
+    }
+}
+.index-header1 {
+    padding-top: 40px;
+    @media #{$tablet} {
+    width: 47%;
+    padding: 0 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    }
+    @media #{$pc} {
+        width: 100%;
+        margin-right: 50px;
+        padding: 0;
+    }
+    .airbnb-mark-zone {
+        display: none;
+        @media #{$tablet} {
+            display: block;
+            position: absolute;
+            top: 22px;
+            left: 28px;
+        }
+        .airbnb-mark {
+            font-size: 38px;
+        }
+    }
+    .index-hosting-expected {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 20px;
+        @media #{$pc} {
+            font-size: 18px;
+            font-weight: 550;
+            line-height: 22px;
+            margin-bottom: 40px;
+        }
+    }
+    .hosting-income {
+        font-size: 32px;
+        line-height: 40px;
+        @media #{$pc} {
+            font-size: 42px;
+            line-height: 48px;
+        }
+    }
+    .index-ecpected-method {
+        cursor: pointer;
+        font-size: 14px;
+        text-decoration: underline;
+        margin-top: 20px;
+        &:active {
+            color: $a-active-color;
+        }
+        @media #{$tablet} {
+            margin-top: 40px;
+        }
+        @media #{$pc} {
+            font-size: 18px;
+            font-weight: 550;
+            line-height: 22px;
+        }
+    }
+}
+
+.index-header2 {
+    padding-bottom: 20px;
+    @media #{$tablet} {
+        width: 70%;
+    }
+}
+.index-form {
+    @media #{$pc} {
+        width: 544px;
+        margin-left: auto;
+    }
+}
+
+.form-tablet-scroll {
+    @media #{$tablet} {
+        overflow-y: scroll;
+        height: 344px;
+        padding: 0 1px;
+    }
+}
+.index-form-bg {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.12);
+    padding: 24px 24px 0;
+    margin: 40px 0 20px;
+    @media #{$tablet} {
+        position: relative;
+        margin: 64px 0 84px;
+    }
+    .form-top-text {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 24px 0;
+    }
+    //   formメニューひとつめ
+    .house-gueast {
+        border: 1px solid $form-border-color;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        .location-zone {
+            border-bottom: 1px solid $form-border-color;
+            &:focus-within {
+                @include form-focus;
+            }
+            .location {
+                border: none;
+                font-size: 16px;
+                line-height: 24px;
+                width: 100%;
+                padding: 6px 11px;
+                margin: 5px 0;
+            }
+        }
+        .reserved {
+            @include form-button;
+            border-bottom: 1px solid $form-border-color;
+            &:focus {
+                @include form-focus;
+            }
+            .arrow {
+                @include arrow;
+            }
+        }
+        .guest {
+            @include form-button;
+            &:focus {
+                @include form-focus;
+            }
+            .arrow {
+                @include arrow;
+            }
+        }
+    }
+    //   formメニュー 2つめ
+    .building-zone {
+    border: 1px solid $form-border-color;
+    border-radius: 8px;
+    }
+    .building-type {
+        @include form-button;
+        border-bottom: 1px solid $form-border-color;
+        &:focus {
+            @include form-focus;
+        }
+        .arrow {
+            @include arrow;
+        }
+    }
+    .bed-room {
+        @include form-button;
+        border-bottom: 1px solid $form-border-color;
+        &:focus {
+            @include form-focus;
+        }
+        .arrow {
+            @include arrow;
+        }
+    }
+    .bath-room {
+        @include form-button;
+        &:focus {
+            @include form-focus;
+        }
+        .arrow {
+            @include arrow;
+        }
+    }
+
+    .hide-menu {
+        display: none;
+    }
+    .hide-form, .hide-form2 {
+        display: none;
+    }
+
+    .slide-down, .slide-down2 {
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 550;
+        width: 100%;
+        margin: 20px 0;
+    }
+    //   form-menu 3つめ
+    .check-box-zone {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    // checkboxs
+    .check-item {
+        flex-basis: 50%;
+        padding: 20px 0;
+        input[type="checkbox"] {
+            display: none;
+        }
+        // jim
+        input#jim[type="checkbox"]+label::before {
+            @include checkbox;
+        }
+        input#jim[type="checkbox"]:checked+label::before {
+            background: #000000;
+        }
+        input#jim[type=checkbox]:checked+label::after {
+            @include checkmark;
+        }
+        // waterflont
+        input#waterflont[type="checkbox"]+label::before {
+            @include checkbox;
+        }
+        input#waterflont[type="checkbox"]:checked+label::before {
+            background: #000000;
+        }
+        input#waterflont[type=checkbox]:checked+label::after {
+            @include checkmark;
+        }
+        // bath
+        input#bath[type="checkbox"]+label::before {
+            @include checkbox;
+        }
+        input#bath[type="checkbox"]:checked+label::before {
+            background: #000000;
+        }
+        input#bath[type=checkbox]:checked+label::after {
+            @include checkmark;
+        }
+        // beach
+        input#beach[type="checkbox"]+label::before {
+            @include checkbox;
+        }
+
+        input#beach[type="checkbox"]:checked+label::before {
+            background: #000000;
+        }
+        input#beach[type=checkbox]:checked+label::after {
+            @include checkmark;
+        }
+        // pool
+        input#pool[type="checkbox"]+label::before {
+            @include checkbox;
+        }
+        input#pool[type="checkbox"]:checked+label::before {
+            background: #000000;
+        }
+        input#pool[type=checkbox]:checked+label::after {
+            @include checkmark;
+        }
+        .check-box-text {
+            position: relative;
+            padding-left: 38px;
+        }
+    }
+    .risting-start {
+        background: #000000;
+        border: none;
+        border-radius: 8px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 550;
+        width: 100%;
+        padding: 16px 32px;
+        margin-bottom: 30px;
+    }
+}
+
+// main1
+.index-main1-title {
+    font-size: 32px;
+    line-height: 36px;
+    margin: 20px 0 30px;
+}
+.index-main1-subtitle {
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.index-main1-text {
+    color: #222222;
+    font-size: 16px;
+    line-height: 24px;
+    width: 80%;
+    margin-bottom: 16px;
+}
+.index-main1-a {
+    font-size: 14px;
+    font-weight: 550;
+    color: #717171;
+    margin-bottom: 20px;
+}
+.slide-list {
+    padding: 0;
+    padding-right: 40px;
+}
+.slide-img-zone {
+    width: 256px;
+    height: 160px;
+    border-radius: 8px;
+    .slide-img {
+        border-radius: 8px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+// slickで自動生成されるクラス ドットの修正
+.slick-dots {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-left: 25%;
+    li {
+        margin-right: 30px;
+    }
+    button {
+        background: #000000;
+        color: #ffffff;
+        border-radius: 4px;
+        border: none;
+        &:focus {
+            background: #717374;
+        }
+    }
+}
+.slick-slide {
+    outline: none;
+}
+.index-separate-line {
+    margin: 20px -24px 0;
+}
+
+// main2
+.art-slide {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin: 0 -12px;
+}
+.index-main2-img-zone {
+    width: 200px;
+    height: 265px;
+    margin: 0 12px;
+    .index-main2-img {
+        border-radius: 8px;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+

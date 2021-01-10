@@ -1,0 +1,57 @@
+// entire
+$basic-text-color: rgb(34, 34, 34) !important;
+$a-active-color: #717171 !important;
+// index-form
+$form-text-color: #222222;
+$form-border-color: #484848;
+@mixin form-focus {
+    border-bottom: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 0 2px #000000;
+    outline: none;
+    margin: 0;
+}
+@mixin form-button {
+    display: inline-flex;
+    line-height: 24px;
+    width: 100%;
+    padding: 11px;
+}
+@mixin arrow {
+    border: 2.5px solid;
+    border-color: (transparent #222222 #222222 transparent) !important;
+    text-align: right;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+    margin: 4px 10px 0;
+    margin-left: auto;
+}
+@mixin checkbox {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    border: 1px solid gray;
+    border-radius: 6px;
+    cursor: pointer;
+}
+@mixin checkmark {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 8px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg) translateY(-50%);
+}
+
