@@ -248,37 +248,45 @@
                 <section class="index-main1-zone">
                     <h2 class="index-main1-title">ホスティングの流れ</h2>
                     <ul class="slide-list">
-                        <li class="item1">
+                        <li class="slide-list-item">
                             <article class="slide-img-zone">
                                 <img src="img/airbnb-copy2-main1.jpg" alt="" class="slide-img">
                             </article>
-                            <h3 class="index-main1-subtitle" class="index-main1-subtitle">ゲストに求める要件をホスト自身で選択</h3>
-                            <div class="index-main1-text" class="index-main1-text">ゲストの店員と滞在可能な日数を決めましょう。ゲストが滞在中に守るべきハウスルールを設定しましょう。</div>
-                            <a href="#" class="index-main1-a">詳細を見る</a>
+                            <div class="slide-list-text-zone">
+                                <h3 class="index-main1-subtitle" class="index-main1-subtitle">ゲストに求める要件をホスト自身で選択</h3>
+                                <div class="index-main1-text" class="index-main1-text">ゲストの店員と滞在可能な日数を決めましょう。ゲストが滞在中に守るべきハウスルールを設定しましょう。</div>
+                                <a href="#" class="index-main1-a">詳細を見る</a>
+                            </div>
                         </li>
-                        <li class="item1">
+                        <li class="slide-list-item">
                             <article class="slide-img-zone">
                                 <img src="img/airbnb-copy2-main1-2.jpg" alt="" class="slide-img">
                             </article>
-                            <h3 class="index-main1-subtitle">ホスティングする期間は自由に設定可能</h3>
-                            <div class="index-main1-text">カレンダーの日付はいつでもブロックできます。最低受け入れ日数といった制限もありません。</div>
-                            <a href="#">詳細を見る</a>
+                            <div class="slide-list-text-zone">
+                                <h3 class="index-main1-subtitle">ホスティングする期間は自由に設定可能</h3>
+                                <div class="index-main1-text">カレンダーの日付はいつでもブロックできます。最低受け入れ日数といった制限もありません。</div>
+                                <a href="#" class="index-main1-a">詳細を見る</a>
+                            </div>
                         </li>
-                        <li class="item1">
+                        <li class="slide-list-item">
                             <article class="slide-img-zone">
                                 <img src="img/airbnb-copy2-main1-3.jpg" alt="" class="slide-img">
                             </article>
-                            <h3 class="index-main1-subtitle">自由な料金設定</h3>
-                            <div class="index-main1-text">料金は自由に設定できます。Airbnbのツールや分析情報を活用して、エリア内におけるリスティングの価格競争力の維持に役立てましょう。</div>
-                            <a href="#">詳細を見る</a>
+                            <div class="slide-list-text-zone">
+                                <h3 class="index-main1-subtitle">自由な料金設定</h3>
+                                <div class="index-main1-text">料金は自由に設定できます。Airbnbのツールや分析情報を活用して、エリア内におけるリスティングの価格競争力の維持に役立てましょう。</div>
+                                <a href="#" class="index-main1-a">詳細を見る</a>
+                            </div>
                         </li>
-                        <li class="item1">
+                        <li class="slide-list-item">
                             <article class="slide-img-zone">
                                 <img src="img/airbnb-copy2-main1-4.jpg" alt="" class="slide-img">
                             </article>
-                            <h3 class="index-main1-subtitle">ゲストを温かく迎え入れましょう</h3>
-                            <div class="index-main1-text">アメニティ・設備とパフォーマンスのガイドラインに従って快適な滞在を提供し、高評価レビューを獲得しましょう。</div>
-                            <a href="#">詳細を見る</a>
+                            <div class="slide-list-text-zone">
+                                <h3 class="index-main1-subtitle">ゲストを温かく迎え入れましょう</h3>
+                                <div class="index-main1-text">アメニティ・設備とパフォーマンスのガイドラインに従って快適な滞在を提供し、高評価レビューを獲得しましょう。</div>
+                                <a href="#" class="index-main1-a">詳細を見る</a>
+                            </div>
                         </li>
                     </ul>
                 </section>
@@ -287,44 +295,57 @@
 
             <div class="index-main2">
                 <section class="index-main2-zone">
-                    <h2>活気あふれるホストコミュニティに参加しよう</h2>
-                    <div>旅行者の記憶に残る滞在を提供して、ご自身が好きなことを追求するための収入を得ましょう。</div>
-                    <button>はじめる</button>
-                    <div class="art-slide">
-                        <article class="index-main2-img-zone">
-                            <img src="img/index-main2-1.jpg" alt="" class="index-main2-img">
-                            <h4>Darrelさん</h4>
-                            <p>アトランタでタイニーハウスをホスティング</p>
-                            <a href="#">タイニーハウスをチェック</a>
-                        </article>
-                        <article class="index-main2-img-zone">
-                            <img src="img/index-main2-2.jpg" alt="" class="index-main2-img">
-                            <h4>Candidaさんf<br>＆Jeffさん</h4>
-                            <p>ジョシュア・ツリーで一軒家をホスティング</p>
-                            <a href="#">一軒家をチェック</a>
-                        </article>
-                        <article class="index-main2-img-zone">
-                            <img src="img/index-main2-3.jpg" alt="" class="index-main2-img">
-                            <h4>Ryoさん</h4>
-                            <p>小松でファームステイをホスティング</p>
-                            <a href="#">ファームステイをチェック</a>
-                        </article>
-                        <article class="index-main2-img-zone">
-                            <img src="img/index-main2-4.jpg" alt="" class="index-main2-img">
-                            <h4>Sophieさん</h4>
-                            <p>パリでロフトをホスティング</p>
-                            <a href="#">ロフトをチェック</a>
-                        </article>
-                        <article class="index-main2-img-zone">
-                            <img src="img/index-main2-5.jpg" alt="" class="index-main2-img">
-                            <h4>Nancyさん</h4>
-                            <p>サンフランシスコで個室をホスティング</p>
-                            <a href="#">個室をチェック</a>
-                        </article>
+                    <div class="index-main2-tablet-positon">
+                        <div class="index-main2-top">
+                            <h2 class="index-main2-title">活気あふれるホストコミュニティに参加しよう</h2>
+                            <div class="index-main2-text">旅行者の記憶に残る滞在を提供して、ご自身が好きなことを追求するための収入を得ましょう。</div>
+                            <button class="start-button">はじめる</button>
+                        </div>
+                        <div>
+                            <div class="slide-blur"></div>
+                        </div>
+                        <div class="art-slide">
+                            <article class="index-main2-img-zone">
+                                <img src="img/index-main2-1.jpg" alt="" class="index-main2-img">
+                                <h4>Darrelさん</h4>
+                                <p>アトランタでタイニーハウスをホスティング</p>
+                                <a href="#">タイニーハウスをチェック</a>
+                            </article>
+                            <article class="index-main2-img-zone">
+                                <img src="img/index-main2-2.jpg" alt="" class="index-main2-img">
+                                <h4>Candidaさんf<br>＆Jeffさん</h4>
+                                <p>ジョシュア・ツリーで一軒家をホスティング</p>
+                                <a href="#">一軒家をチェック</a>
+                            </article>
+                            <article class="index-main2-img-zone">
+                                <img src="img/index-main2-3.jpg" alt="" class="index-main2-img">
+                                <h4>Ryoさん</h4>
+                                <p>小松でファームステイをホスティング</p>
+                                <a href="#">ファームステイをチェック</a>
+                            </article>
+                            <article class="index-main2-img-zone">
+                                <img src="img/index-main2-4.jpg" alt="" class="index-main2-img">
+                                <h4>Sophieさん</h4>
+                                <p>パリでロフトをホスティング</p>
+                                <a href="#">ロフトをチェック</a>
+                            </article>
+                            <article class="index-main2-img-zone">
+                                <img src="img/index-main2-5.jpg" alt="" class="index-main2-img">
+                                <h4>Nancyさん</h4>
+                                <p>サンフランシスコで個室をホスティング</p>
+                                <a href="#">個室をチェック</a>
+                            </article>
+                    </div>
                     </div>
                 </section>
+                <hr class="index-separate-line">
             </div>
 
+            <div class="index-main3">
+                <section class="index-main3-zone">
+                    <h2 class="index-main3-title">Airbnbはみなさまの安全を最優先に考えております</h2>
+                </section>
+            </div>
         </main>
 
     </section>
